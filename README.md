@@ -60,3 +60,15 @@ Eine kostenlose, installierbare **Progressive Web App (PWA)** für Fußball-, Ha
 - `icons/`: App-Symbole in drei Größen
 
 Version 1.0 · Sport Akademie Deutschland
+
+
+## Version 3.0: Liga-Turniermodus
+
+- 8 Mannschaften, frei benennbar.
+- Jeder gegen jeden mit Hin- und Rückrunde: 14 Spieltage mit 4 Spielen, insgesamt 56 Spiele.
+- Zwei Torzahlen pro Spiel erfassen und mit „Speichern“ bestätigen; Eingaben können korrigiert oder gelöscht werden.
+- Automatische Tabelle: Sp, S, U, N, Tore, Tordifferenz, Ligapunkte, Kartenbonuspunkte, Gesamtpunkte.
+- 3 Punkte pro Sieg, 1 pro Unentschieden, 0 pro Niederlage.
+- Kartenbonuspunkte werden zum Gesamtpunktestand hinzuaddiert. Sortierung: Gesamtpunkte, Tordifferenz, Tore, Siege.
+- Spielplan neu erstellen und Spielergebnisse separat zurücksetzen.
+- Offline und lokal im Browser gespeichert, kein geräteübergreifender Abgleich.

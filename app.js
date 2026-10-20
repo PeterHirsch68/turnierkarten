@@ -37,6 +37,7 @@ document.querySelectorAll(".draw").forEach((b,i)=>{
 });
 $("count").textContent=pool().length+" Karten im Stapel";
 $("history").innerHTML=state.history.length?state.history.slice(0,35).map(h=>`<div class="entry"><div><b>${escapeHtml(h.name)} · ${escapeHtml(h.title)}</b><span>${escapeHtml(h.time)} · ${escapeHtml(h.result)}</span></div><em>${h.awarded?"+"+h.points+" Punkte":"0 Punkte"}</em></div>`).join(""):'<p class="muted">Noch keine Karten gezogen.</p>';
+renderTournament();
 if(active===null && state.pending.some(Boolean))active=state.pending.findIndex(Boolean);
 if(active!==null && state.pending[active]){
   showCard(state.pending[active]);
@@ -47,6 +48,60 @@ if(active!==null && state.pending[active]){
   $("activeHint").textContent="Punkte gibt es nur bei bestätigter Erfüllung – nicht schon beim Ziehen.";
 }
 }
+
+// Doppelrunde nach dem Kreisverfahren: acht Teams, sieben Runden pro Halbserie.
+function buildFixtures(){
+  const order=Array.from({length:teamCount},(_,i)=>i), games=[];
+  for(let round=0;round<teamCount-1;round++){
+    for(let k=0;k<teamCount/2;k++){
+      let home=order[k],away=order[teamCount-1-k];
+      if((round+k)%2){[home,away]=[away,home];}
+      games.push({id:`H${round+1}-${k+1}`,round:round+1,home,away,hg:null,ag:null});
+    }
+    order.splice(1,0,order.pop());
+  }
+  const returnLeg=games.map(g=>({id:g.id.replace('H','R'),round:g.round+teamCount-1,home:g.away,away:g.home,hg:null,ag:null}));
+  return [...games,...returnLeg];
+}
+function initFixtures(){
+  if(!Array.isArray(state.fixtures)||state.fixtures.length!==56||new Set(state.fixtures.map(g=>g.id)).size!==56){state.fixtures=buildFixtures();persist();}
+}
+function tableData(){
+ const tab=Array.from({length:teamCount},(_,i)=>({id:i,played:0,w:0,d:0,l:0,gf:0,ga:0,matchPts:0,bonus:state.scores[i]||0}));
+ for(const g of state.fixtures){if(!Number.isInteger(g.hg)||!Number.isInteger(g.ag))continue;
+ const h=tab[g.home],a=tab[g.away];h.played++;a.played++;h.gf+=g.hg;h.ga+=g.ag;a.gf+=g.ag;a.ga+=g.hg;
+ if(g.hg>g.ag){h.w++;a.l++;h.matchPts+=3;}else if(g.hg<g.ag){a.w++;h.l++;a.matchPts+=3;}else{h.d++;a.d++;h.matchPts++;a.matchPts++;}
+ }
+ tab.forEach(r=>{r.diff=r.gf-r.ga;r.total=r.matchPts+r.bonus;});
+ return tab.sort((a,b)=>b.total-a.total||b.diff-a.diff||b.gf-a.gf||b.w-a.w||a.id-b.id);
+}
+function renderTournament(){
+ if(!Array.isArray(state.fixtures))return;
+ const complete=state.fixtures.filter(g=>Number.isInteger(g.hg)&&Number.isInteger(g.ag)).length;
+ $('gamesPlayed').textContent=`${complete} von 56 gespielt`;
+ $('standingsBody').innerHTML=tableData().map((r,i)=>`<tr><td>${i+1}</td><td class="teamcol">${escapeHtml(state.names[r.id].trim()||'Team '+(r.id+1))}</td><td>${r.played}</td><td>${r.w}</td><td>${r.d}</td><td>${r.l}</td><td>${r.gf}:${r.ga}</td><td>${r.diff>0?'+':''}${r.diff}</td><td>${r.matchPts}</td><td>+${r.bonus}</td><td><strong>${r.total}</strong></td></tr>`).join('');
+ $('fixtures').innerHTML=Array.from({length:14},(_,i)=>{
+ const games=state.fixtures.filter(g=>g.round===i+1),finished=games.filter(g=>Number.isInteger(g.hg)&&Number.isInteger(g.ag)).length;
+ return `<details class="round" ${i===0?'open':''}><summary>Spieltag ${i+1} · ${i<7?'Hinrunde':'Rückrunde'} <span>${finished}/4 Ergebnisse</span></summary>${games.map(g=>`<div class="fixture"><div class="match-names"><span>${escapeHtml(state.names[g.home].trim()||'Team '+(g.home+1))}</span><span class="versus">gegen</span><span>${escapeHtml(state.names[g.away].trim()||'Team '+(g.away+1))}</span></div><div class="score-inputs"><input aria-label="Tore ${escapeHtml(state.names[g.home])}" data-game="${g.id}" data-side="hg" inputmode="numeric" type="number" min="0" max="99" placeholder="–" value="${g.hg??''}"><b>:</b><input aria-label="Tore ${escapeHtml(state.names[g.away])}" data-game="${g.id}" data-side="ag" inputmode="numeric" type="number" min="0" max="99" placeholder="–" value="${g.ag??''}"></div><button class="save-game" data-save="${g.id}">Speichern</button><span class="saved-marker">${Number.isInteger(g.hg)&&Number.isInteger(g.ag)?'✓':''}</span></div>`).join('')}</details>`;
+ }).join('');
+}
+function saveGame(id){
+ const g=state.fixtures.find(x=>x.id===id);if(!g)return;
+ const inputs=[...document.querySelectorAll('[data-game]')].filter(x=>x.dataset.game===id);
+ const values=inputs.map(el=>el.value.trim());
+ if(values.some(v=>v!=='')&&values.some(v=>v==='')){alert('Bitte beide Torzahlen eingeben oder beide Felder leeren.');return;}
+ if(values.some(v=>v!==''&&(!/^\d+$/.test(v)||Number(v)>99))){alert('Bitte Tore als ganze Zahl zwischen 0 und 99 eintragen.');return;}
+ g.hg=values[0]===''?null:Number(values[0]);g.ag=values[1]===''?null:Number(values[1]);persist();
+ // Retain expanded fixture round after re-render.
+ const round=g.round;renderTournament();const el=document.querySelectorAll('.round')[round-1];if(el)el.open=true;
+}
+function bindTournament(){
+ initFixtures();renderTournament();
+ $('fixtures').addEventListener('click',e=>{const button=e.target.closest('[data-save]');if(button)saveGame(button.dataset.save);});
+ $('generateFixtures').addEventListener('click',()=>{if(!confirm('Spielplan und alle bisherigen Spielergebnisse vollständig neu erstellen? Bonuspunkte bleiben erhalten.'))return;state.fixtures=buildFixtures();persist();renderTournament();});
+ $('resetResults').addEventListener('click',()=>{if(!confirm('Alle 56 Spielergebnisse löschen? Kartenzüge und Bonuspunkte bleiben erhalten.'))return;state.fixtures.forEach(g=>{g.hg=null;g.ag=null;});persist();renderTournament();});
+}
+
 function makeTeamUi(){
   $("teamNames").innerHTML=defaults.map((_,i)=>`<label>Team ${i+1} – Name<input id="name${i+1}" maxlength="26" autocomplete="off" aria-label="Mannschaft ${i+1} benennen"></label>`).join("");
   $("scoreboard").innerHTML=defaults.map((_,i)=>`<article class="team ${i%2?"red":"blue"}"><div class="team-meta"><span class="teamlabel">MANNSCHAFT ${i+1}</span><h3 id="label${i+1}"></h3></div><strong id="score${i+1}">0</strong><span class="scorecaption">BONUSPUNKTE</span><button class="draw" data-team="${i}"></button><div class="pending" id="pending${i+1}"></div></article>`).join("");
@@ -56,6 +111,7 @@ function makeTeamUi(){
     field.addEventListener("input",e=>{
       state.names[i]=e.target.value;
       persist();
+      renderTournament();
       $("label"+(i+1)).textContent=e.target.value.trim()||"Team "+(i+1);
       const button=document.querySelector(`.draw[data-team="${i}"]`);
       if(!state.pending[i])button.textContent=`Karte für ${e.target.value.trim()||"Team "+(i+1)} ziehen →`;
@@ -74,6 +130,7 @@ $("sport").addEventListener("change",e=>{if(state.pending.some(Boolean)){alert("
 document.querySelectorAll(".draw").forEach(b=>b.addEventListener("click",()=>draw(Number(b.dataset.team))));
 $("completeBtn").addEventListener("click",()=>finish(true));$("skipBtn").addEventListener("click",()=>finish(false));
 $("resetBtn").addEventListener("click",()=>{if(!confirm("Alle Bonuspunkte, gezogenen Karten und den Verlauf dieses Turniers löschen?"))return;state.scores=Array(teamCount).fill(0);state.pending=Array(teamCount).fill(null);state.history=[];state.used={football:[],handball:[],mixed:[]};active=null;persist();$("cardType").textContent="BEREIT?";$("cardTitle").textContent="Eure nächste Aufgabe wartet!";$("cardText").textContent="Wählt eine Mannschaft und zieht eure Karte.";$("cardPoints").textContent="?";$("cardId").textContent="TURNIERKARTEN";$("stateLabel").textContent="Bereit zum Ziehen";render();});
+bindTournament();
 const help=$("help");$("helpBtn").onclick=()=>help.showModal();$("closeHelp").onclick=()=>help.close();$("okHelp").onclick=()=>help.close();render();}
 if("serviceWorker" in navigator)window.addEventListener("load",()=>navigator.serviceWorker.register("./sw.js").catch(()=>{}));init();
 })();
