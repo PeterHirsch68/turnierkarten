@@ -1398,5 +1398,1605 @@
     "title": "Ballbesitzphase · Profi",
     "description": "Haltet den Ball mindestens 20 Sekunden ohne Unterbrechung in den eigenen Reihen. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
     "points": 9
+  },
+  {
+    "id": "F201",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Erster Kontakt · Einmal im Spiel",
+    "description": "Nehmt einen zugespielten Ball kontrolliert mit dem ersten Kontakt in die freie Spielrichtung mit. Führt die Aktion mindestens einmal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 4
+  },
+  {
+    "id": "F202",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Erster Kontakt · Zweimal im Spiel",
+    "description": "Nehmt einen zugespielten Ball kontrolliert mit dem ersten Kontakt in die freie Spielrichtung mit. Führt die Aktion mindestens zweimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 5
+  },
+  {
+    "id": "F203",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Erster Kontakt · Dreimal im Spiel",
+    "description": "Nehmt einen zugespielten Ball kontrolliert mit dem ersten Kontakt in die freie Spielrichtung mit. Führt die Aktion mindestens dreimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 7
+  },
+  {
+    "id": "F204",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Erster Kontakt · Mit anschließendem Pass",
+    "description": "Nehmt einen zugespielten Ball kontrolliert mit dem ersten Kontakt in die freie Spielrichtung mit. Führt die Aktion mindestens einmal aus und spielt anschließend einen erfolgreichen Pass zum eigenen Team. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 6
+  },
+  {
+    "id": "F205",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Erster Kontakt · Im erfolgreichen Angriff",
+    "description": "Nehmt einen zugespielten Ball kontrolliert mit dem ersten Kontakt in die freie Spielrichtung mit. Führt die Aktion im selben Angriff aus, aus dem innerhalb der nächsten drei eigenen Ballaktionen ein regelkonformer Torabschluss entsteht. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 8
+  },
+  {
+    "id": "F206",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Innenseitpass · Einmal im Spiel",
+    "description": "Spielt einen präzisen Innenseitpass zum Mitspieler. Führt die Aktion mindestens einmal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 4
+  },
+  {
+    "id": "F207",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Innenseitpass · Zweimal im Spiel",
+    "description": "Spielt einen präzisen Innenseitpass zum Mitspieler. Führt die Aktion mindestens zweimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 5
+  },
+  {
+    "id": "F208",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Innenseitpass · Dreimal im Spiel",
+    "description": "Spielt einen präzisen Innenseitpass zum Mitspieler. Führt die Aktion mindestens dreimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 7
+  },
+  {
+    "id": "F209",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Innenseitpass · Mit anschließendem Pass",
+    "description": "Spielt einen präzisen Innenseitpass zum Mitspieler. Führt die Aktion mindestens einmal aus und spielt anschließend einen erfolgreichen Pass zum eigenen Team. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 6
+  },
+  {
+    "id": "F210",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Innenseitpass · Im erfolgreichen Angriff",
+    "description": "Spielt einen präzisen Innenseitpass zum Mitspieler. Führt die Aktion im selben Angriff aus, aus dem innerhalb der nächsten drei eigenen Ballaktionen ein regelkonformer Torabschluss entsteht. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 8
+  },
+  {
+    "id": "F211",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Außenseitpass · Einmal im Spiel",
+    "description": "Spielt einen kontrollierten Pass mit der Außenseite. Führt die Aktion mindestens einmal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 4
+  },
+  {
+    "id": "F212",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Außenseitpass · Zweimal im Spiel",
+    "description": "Spielt einen kontrollierten Pass mit der Außenseite. Führt die Aktion mindestens zweimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 5
+  },
+  {
+    "id": "F213",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Außenseitpass · Dreimal im Spiel",
+    "description": "Spielt einen kontrollierten Pass mit der Außenseite. Führt die Aktion mindestens dreimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 7
+  },
+  {
+    "id": "F214",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Außenseitpass · Mit anschließendem Pass",
+    "description": "Spielt einen kontrollierten Pass mit der Außenseite. Führt die Aktion mindestens einmal aus und spielt anschließend einen erfolgreichen Pass zum eigenen Team. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 6
+  },
+  {
+    "id": "F215",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Außenseitpass · Im erfolgreichen Angriff",
+    "description": "Spielt einen kontrollierten Pass mit der Außenseite. Führt die Aktion im selben Angriff aus, aus dem innerhalb der nächsten drei eigenen Ballaktionen ein regelkonformer Torabschluss entsteht. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 8
+  },
+  {
+    "id": "F216",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Schwacher Fuß · Einmal im Spiel",
+    "description": "Spielt einen sauberen Pass mit eurem schwächeren Fuß. Führt die Aktion mindestens einmal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 4
+  },
+  {
+    "id": "F217",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Schwacher Fuß · Zweimal im Spiel",
+    "description": "Spielt einen sauberen Pass mit eurem schwächeren Fuß. Führt die Aktion mindestens zweimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 5
+  },
+  {
+    "id": "F218",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Schwacher Fuß · Dreimal im Spiel",
+    "description": "Spielt einen sauberen Pass mit eurem schwächeren Fuß. Führt die Aktion mindestens dreimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 7
+  },
+  {
+    "id": "F219",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Schwacher Fuß · Mit anschließendem Pass",
+    "description": "Spielt einen sauberen Pass mit eurem schwächeren Fuß. Führt die Aktion mindestens einmal aus und spielt anschließend einen erfolgreichen Pass zum eigenen Team. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 6
+  },
+  {
+    "id": "F220",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Schwacher Fuß · Im erfolgreichen Angriff",
+    "description": "Spielt einen sauberen Pass mit eurem schwächeren Fuß. Führt die Aktion im selben Angriff aus, aus dem innerhalb der nächsten drei eigenen Ballaktionen ein regelkonformer Torabschluss entsteht. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 8
+  },
+  {
+    "id": "F221",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Direktpass · Einmal im Spiel",
+    "description": "Leitet einen Pass ohne vorherige Ballannahme kontrolliert weiter. Führt die Aktion mindestens einmal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 4
+  },
+  {
+    "id": "F222",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Direktpass · Zweimal im Spiel",
+    "description": "Leitet einen Pass ohne vorherige Ballannahme kontrolliert weiter. Führt die Aktion mindestens zweimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 5
+  },
+  {
+    "id": "F223",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Direktpass · Dreimal im Spiel",
+    "description": "Leitet einen Pass ohne vorherige Ballannahme kontrolliert weiter. Führt die Aktion mindestens dreimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 7
+  },
+  {
+    "id": "F224",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Direktpass · Mit anschließendem Pass",
+    "description": "Leitet einen Pass ohne vorherige Ballannahme kontrolliert weiter. Führt die Aktion mindestens einmal aus und spielt anschließend einen erfolgreichen Pass zum eigenen Team. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 6
+  },
+  {
+    "id": "F225",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Direktpass · Im erfolgreichen Angriff",
+    "description": "Leitet einen Pass ohne vorherige Ballannahme kontrolliert weiter. Führt die Aktion im selben Angriff aus, aus dem innerhalb der nächsten drei eigenen Ballaktionen ein regelkonformer Torabschluss entsteht. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 8
+  },
+  {
+    "id": "F226",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Doppelpass · Einmal im Spiel",
+    "description": "Spielt mit einem Mitspieler einen erfolgreichen Doppelpass. Führt die Aktion mindestens einmal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 4
+  },
+  {
+    "id": "F227",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Doppelpass · Zweimal im Spiel",
+    "description": "Spielt mit einem Mitspieler einen erfolgreichen Doppelpass. Führt die Aktion mindestens zweimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 5
+  },
+  {
+    "id": "F228",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Doppelpass · Dreimal im Spiel",
+    "description": "Spielt mit einem Mitspieler einen erfolgreichen Doppelpass. Führt die Aktion mindestens dreimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 7
+  },
+  {
+    "id": "F229",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Doppelpass · Mit anschließendem Pass",
+    "description": "Spielt mit einem Mitspieler einen erfolgreichen Doppelpass. Führt die Aktion mindestens einmal aus und spielt anschließend einen erfolgreichen Pass zum eigenen Team. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 6
+  },
+  {
+    "id": "F230",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Doppelpass · Im erfolgreichen Angriff",
+    "description": "Spielt mit einem Mitspieler einen erfolgreichen Doppelpass. Führt die Aktion im selben Angriff aus, aus dem innerhalb der nächsten drei eigenen Ballaktionen ein regelkonformer Torabschluss entsteht. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 8
+  },
+  {
+    "id": "F231",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Ballmitnahme · Einmal im Spiel",
+    "description": "Nehmt einen flachen Pass mit der ersten Berührung in Bewegung mit. Führt die Aktion mindestens einmal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 4
+  },
+  {
+    "id": "F232",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Ballmitnahme · Zweimal im Spiel",
+    "description": "Nehmt einen flachen Pass mit der ersten Berührung in Bewegung mit. Führt die Aktion mindestens zweimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 5
+  },
+  {
+    "id": "F233",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Ballmitnahme · Dreimal im Spiel",
+    "description": "Nehmt einen flachen Pass mit der ersten Berührung in Bewegung mit. Führt die Aktion mindestens dreimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 7
+  },
+  {
+    "id": "F234",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Ballmitnahme · Mit anschließendem Pass",
+    "description": "Nehmt einen flachen Pass mit der ersten Berührung in Bewegung mit. Führt die Aktion mindestens einmal aus und spielt anschließend einen erfolgreichen Pass zum eigenen Team. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 6
+  },
+  {
+    "id": "F235",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Ballmitnahme · Im erfolgreichen Angriff",
+    "description": "Nehmt einen flachen Pass mit der ersten Berührung in Bewegung mit. Führt die Aktion im selben Angriff aus, aus dem innerhalb der nächsten drei eigenen Ballaktionen ein regelkonformer Torabschluss entsteht. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 8
+  },
+  {
+    "id": "F236",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Körperfinte · Einmal im Spiel",
+    "description": "Täuscht mit dem Oberkörper eine Richtung an und geht auf der anderen Seite vorbei. Führt die Aktion mindestens einmal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 4
+  },
+  {
+    "id": "F237",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Körperfinte · Zweimal im Spiel",
+    "description": "Täuscht mit dem Oberkörper eine Richtung an und geht auf der anderen Seite vorbei. Führt die Aktion mindestens zweimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 5
+  },
+  {
+    "id": "F238",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Körperfinte · Dreimal im Spiel",
+    "description": "Täuscht mit dem Oberkörper eine Richtung an und geht auf der anderen Seite vorbei. Führt die Aktion mindestens dreimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 7
+  },
+  {
+    "id": "F239",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Körperfinte · Mit anschließendem Pass",
+    "description": "Täuscht mit dem Oberkörper eine Richtung an und geht auf der anderen Seite vorbei. Führt die Aktion mindestens einmal aus und spielt anschließend einen erfolgreichen Pass zum eigenen Team. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 6
+  },
+  {
+    "id": "F240",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Körperfinte · Im erfolgreichen Angriff",
+    "description": "Täuscht mit dem Oberkörper eine Richtung an und geht auf der anderen Seite vorbei. Führt die Aktion im selben Angriff aus, aus dem innerhalb der nächsten drei eigenen Ballaktionen ein regelkonformer Torabschluss entsteht. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 8
+  },
+  {
+    "id": "F241",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Übersteiger · Einmal im Spiel",
+    "description": "Führt einen Übersteiger aus und setzt das Dribbling kontrolliert fort. Führt die Aktion mindestens einmal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 4
+  },
+  {
+    "id": "F242",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Übersteiger · Zweimal im Spiel",
+    "description": "Führt einen Übersteiger aus und setzt das Dribbling kontrolliert fort. Führt die Aktion mindestens zweimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 5
+  },
+  {
+    "id": "F243",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Übersteiger · Dreimal im Spiel",
+    "description": "Führt einen Übersteiger aus und setzt das Dribbling kontrolliert fort. Führt die Aktion mindestens dreimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 7
+  },
+  {
+    "id": "F244",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Übersteiger · Mit anschließendem Pass",
+    "description": "Führt einen Übersteiger aus und setzt das Dribbling kontrolliert fort. Führt die Aktion mindestens einmal aus und spielt anschließend einen erfolgreichen Pass zum eigenen Team. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 6
+  },
+  {
+    "id": "F245",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Übersteiger · Im erfolgreichen Angriff",
+    "description": "Führt einen Übersteiger aus und setzt das Dribbling kontrolliert fort. Führt die Aktion im selben Angriff aus, aus dem innerhalb der nächsten drei eigenen Ballaktionen ein regelkonformer Torabschluss entsteht. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 8
+  },
+  {
+    "id": "F246",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Richtungswechsel · Einmal im Spiel",
+    "description": "Wechselt im Dribbling die Richtung und behaltet den Ball. Führt die Aktion mindestens einmal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 4
+  },
+  {
+    "id": "F247",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Richtungswechsel · Zweimal im Spiel",
+    "description": "Wechselt im Dribbling die Richtung und behaltet den Ball. Führt die Aktion mindestens zweimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 5
+  },
+  {
+    "id": "F248",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Richtungswechsel · Dreimal im Spiel",
+    "description": "Wechselt im Dribbling die Richtung und behaltet den Ball. Führt die Aktion mindestens dreimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 7
+  },
+  {
+    "id": "F249",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Richtungswechsel · Mit anschließendem Pass",
+    "description": "Wechselt im Dribbling die Richtung und behaltet den Ball. Führt die Aktion mindestens einmal aus und spielt anschließend einen erfolgreichen Pass zum eigenen Team. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 6
+  },
+  {
+    "id": "F250",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Richtungswechsel · Im erfolgreichen Angriff",
+    "description": "Wechselt im Dribbling die Richtung und behaltet den Ball. Führt die Aktion im selben Angriff aus, aus dem innerhalb der nächsten drei eigenen Ballaktionen ein regelkonformer Torabschluss entsteht. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 8
+  },
+  {
+    "id": "F251",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Tempowechsel · Einmal im Spiel",
+    "description": "Verlangsamt das Dribbling und beschleunigt danach an einem Gegenspieler vorbei. Führt die Aktion mindestens einmal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 4
+  },
+  {
+    "id": "F252",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Tempowechsel · Zweimal im Spiel",
+    "description": "Verlangsamt das Dribbling und beschleunigt danach an einem Gegenspieler vorbei. Führt die Aktion mindestens zweimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 5
+  },
+  {
+    "id": "F253",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Tempowechsel · Dreimal im Spiel",
+    "description": "Verlangsamt das Dribbling und beschleunigt danach an einem Gegenspieler vorbei. Führt die Aktion mindestens dreimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 7
+  },
+  {
+    "id": "F254",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Tempowechsel · Mit anschließendem Pass",
+    "description": "Verlangsamt das Dribbling und beschleunigt danach an einem Gegenspieler vorbei. Führt die Aktion mindestens einmal aus und spielt anschließend einen erfolgreichen Pass zum eigenen Team. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 6
+  },
+  {
+    "id": "F255",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Tempowechsel · Im erfolgreichen Angriff",
+    "description": "Verlangsamt das Dribbling und beschleunigt danach an einem Gegenspieler vorbei. Führt die Aktion im selben Angriff aus, aus dem innerhalb der nächsten drei eigenen Ballaktionen ein regelkonformer Torabschluss entsteht. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 8
+  },
+  {
+    "id": "F256",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Sohle einsetzen · Einmal im Spiel",
+    "description": "Zieht den Ball mit der Sohle kontrolliert in eine neue Spielrichtung. Führt die Aktion mindestens einmal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 4
+  },
+  {
+    "id": "F257",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Sohle einsetzen · Zweimal im Spiel",
+    "description": "Zieht den Ball mit der Sohle kontrolliert in eine neue Spielrichtung. Führt die Aktion mindestens zweimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 5
+  },
+  {
+    "id": "F258",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Sohle einsetzen · Dreimal im Spiel",
+    "description": "Zieht den Ball mit der Sohle kontrolliert in eine neue Spielrichtung. Führt die Aktion mindestens dreimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 7
+  },
+  {
+    "id": "F259",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Sohle einsetzen · Mit anschließendem Pass",
+    "description": "Zieht den Ball mit der Sohle kontrolliert in eine neue Spielrichtung. Führt die Aktion mindestens einmal aus und spielt anschließend einen erfolgreichen Pass zum eigenen Team. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 6
+  },
+  {
+    "id": "F260",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Sohle einsetzen · Im erfolgreichen Angriff",
+    "description": "Zieht den Ball mit der Sohle kontrolliert in eine neue Spielrichtung. Führt die Aktion im selben Angriff aus, aus dem innerhalb der nächsten drei eigenen Ballaktionen ein regelkonformer Torabschluss entsteht. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 8
+  },
+  {
+    "id": "F261",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Ball abschirmen · Einmal im Spiel",
+    "description": "Schirmt den Ball gegen einen Gegner ab und behauptet ihn. Führt die Aktion mindestens einmal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 4
+  },
+  {
+    "id": "F262",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Ball abschirmen · Zweimal im Spiel",
+    "description": "Schirmt den Ball gegen einen Gegner ab und behauptet ihn. Führt die Aktion mindestens zweimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 5
+  },
+  {
+    "id": "F263",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Ball abschirmen · Dreimal im Spiel",
+    "description": "Schirmt den Ball gegen einen Gegner ab und behauptet ihn. Führt die Aktion mindestens dreimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 7
+  },
+  {
+    "id": "F264",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Ball abschirmen · Mit anschließendem Pass",
+    "description": "Schirmt den Ball gegen einen Gegner ab und behauptet ihn. Führt die Aktion mindestens einmal aus und spielt anschließend einen erfolgreichen Pass zum eigenen Team. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 6
+  },
+  {
+    "id": "F265",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Ball abschirmen · Im erfolgreichen Angriff",
+    "description": "Schirmt den Ball gegen einen Gegner ab und behauptet ihn. Führt die Aktion im selben Angriff aus, aus dem innerhalb der nächsten drei eigenen Ballaktionen ein regelkonformer Torabschluss entsteht. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 8
+  },
+  {
+    "id": "F266",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Offene Stellung · Einmal im Spiel",
+    "description": "Nehmt den Ball mit offener Körperstellung in die Angriffsrichtung an. Führt die Aktion mindestens einmal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 4
+  },
+  {
+    "id": "F267",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Offene Stellung · Zweimal im Spiel",
+    "description": "Nehmt den Ball mit offener Körperstellung in die Angriffsrichtung an. Führt die Aktion mindestens zweimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 5
+  },
+  {
+    "id": "F268",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Offene Stellung · Dreimal im Spiel",
+    "description": "Nehmt den Ball mit offener Körperstellung in die Angriffsrichtung an. Führt die Aktion mindestens dreimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 7
+  },
+  {
+    "id": "F269",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Offene Stellung · Mit anschließendem Pass",
+    "description": "Nehmt den Ball mit offener Körperstellung in die Angriffsrichtung an. Führt die Aktion mindestens einmal aus und spielt anschließend einen erfolgreichen Pass zum eigenen Team. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 6
+  },
+  {
+    "id": "F270",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Offene Stellung · Im erfolgreichen Angriff",
+    "description": "Nehmt den Ball mit offener Körperstellung in die Angriffsrichtung an. Führt die Aktion im selben Angriff aus, aus dem innerhalb der nächsten drei eigenen Ballaktionen ein regelkonformer Torabschluss entsteht. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 8
+  },
+  {
+    "id": "F271",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Torschuss Innenseite · Einmal im Spiel",
+    "description": "Schließt mit einem platzierten Innenseitstoß auf das Tor ab. Führt die Aktion mindestens einmal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 4
+  },
+  {
+    "id": "F272",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Torschuss Innenseite · Zweimal im Spiel",
+    "description": "Schließt mit einem platzierten Innenseitstoß auf das Tor ab. Führt die Aktion mindestens zweimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 5
+  },
+  {
+    "id": "F273",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Torschuss Innenseite · Dreimal im Spiel",
+    "description": "Schließt mit einem platzierten Innenseitstoß auf das Tor ab. Führt die Aktion mindestens dreimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 7
+  },
+  {
+    "id": "F274",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Torschuss Innenseite · Mit anschließendem Pass",
+    "description": "Schließt mit einem platzierten Innenseitstoß auf das Tor ab. Führt die Aktion mindestens einmal aus und spielt anschließend einen erfolgreichen Pass zum eigenen Team. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 6
+  },
+  {
+    "id": "F275",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Torschuss Innenseite · Im erfolgreichen Angriff",
+    "description": "Schließt mit einem platzierten Innenseitstoß auf das Tor ab. Führt die Aktion im selben Angriff aus, aus dem innerhalb der nächsten drei eigenen Ballaktionen ein regelkonformer Torabschluss entsteht. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 8
+  },
+  {
+    "id": "F276",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Torschuss Spann · Einmal im Spiel",
+    "description": "Schließt mit dem Spann kontrolliert auf das Tor ab. Führt die Aktion mindestens einmal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 4
+  },
+  {
+    "id": "F277",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Torschuss Spann · Zweimal im Spiel",
+    "description": "Schließt mit dem Spann kontrolliert auf das Tor ab. Führt die Aktion mindestens zweimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 5
+  },
+  {
+    "id": "F278",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Torschuss Spann · Dreimal im Spiel",
+    "description": "Schließt mit dem Spann kontrolliert auf das Tor ab. Führt die Aktion mindestens dreimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 7
+  },
+  {
+    "id": "F279",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Torschuss Spann · Mit anschließendem Pass",
+    "description": "Schließt mit dem Spann kontrolliert auf das Tor ab. Führt die Aktion mindestens einmal aus und spielt anschließend einen erfolgreichen Pass zum eigenen Team. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 6
+  },
+  {
+    "id": "F280",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Torschuss Spann · Im erfolgreichen Angriff",
+    "description": "Schließt mit dem Spann kontrolliert auf das Tor ab. Führt die Aktion im selben Angriff aus, aus dem innerhalb der nächsten drei eigenen Ballaktionen ein regelkonformer Torabschluss entsteht. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 8
+  },
+  {
+    "id": "F281",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Flacher Abschluss · Einmal im Spiel",
+    "description": "Schießt kontrolliert flach auf das Tor. Führt die Aktion mindestens einmal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 4
+  },
+  {
+    "id": "F282",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Flacher Abschluss · Zweimal im Spiel",
+    "description": "Schießt kontrolliert flach auf das Tor. Führt die Aktion mindestens zweimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 5
+  },
+  {
+    "id": "F283",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Flacher Abschluss · Dreimal im Spiel",
+    "description": "Schießt kontrolliert flach auf das Tor. Führt die Aktion mindestens dreimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 7
+  },
+  {
+    "id": "F284",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Flacher Abschluss · Mit anschließendem Pass",
+    "description": "Schießt kontrolliert flach auf das Tor. Führt die Aktion mindestens einmal aus und spielt anschließend einen erfolgreichen Pass zum eigenen Team. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 6
+  },
+  {
+    "id": "F285",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Flacher Abschluss · Im erfolgreichen Angriff",
+    "description": "Schießt kontrolliert flach auf das Tor. Führt die Aktion im selben Angriff aus, aus dem innerhalb der nächsten drei eigenen Ballaktionen ein regelkonformer Torabschluss entsteht. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 8
+  },
+  {
+    "id": "F286",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Dribbling beidfüßig · Einmal im Spiel",
+    "description": "Führt den Ball abwechselnd mit linkem und rechtem Fuß. Führt die Aktion mindestens einmal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 4
+  },
+  {
+    "id": "F287",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Dribbling beidfüßig · Zweimal im Spiel",
+    "description": "Führt den Ball abwechselnd mit linkem und rechtem Fuß. Führt die Aktion mindestens zweimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 5
+  },
+  {
+    "id": "F288",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Dribbling beidfüßig · Dreimal im Spiel",
+    "description": "Führt den Ball abwechselnd mit linkem und rechtem Fuß. Führt die Aktion mindestens dreimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 7
+  },
+  {
+    "id": "F289",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Dribbling beidfüßig · Mit anschließendem Pass",
+    "description": "Führt den Ball abwechselnd mit linkem und rechtem Fuß. Führt die Aktion mindestens einmal aus und spielt anschließend einen erfolgreichen Pass zum eigenen Team. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 6
+  },
+  {
+    "id": "F290",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Dribbling beidfüßig · Im erfolgreichen Angriff",
+    "description": "Führt den Ball abwechselnd mit linkem und rechtem Fuß. Führt die Aktion im selben Angriff aus, aus dem innerhalb der nächsten drei eigenen Ballaktionen ein regelkonformer Torabschluss entsteht. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 8
+  },
+  {
+    "id": "F291",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Pass in den Lauf · Einmal im Spiel",
+    "description": "Spielt einen präzisen Pass in den Lauf des Mitspielers. Führt die Aktion mindestens einmal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 4
+  },
+  {
+    "id": "F292",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Pass in den Lauf · Zweimal im Spiel",
+    "description": "Spielt einen präzisen Pass in den Lauf des Mitspielers. Führt die Aktion mindestens zweimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 5
+  },
+  {
+    "id": "F293",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Pass in den Lauf · Dreimal im Spiel",
+    "description": "Spielt einen präzisen Pass in den Lauf des Mitspielers. Führt die Aktion mindestens dreimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 7
+  },
+  {
+    "id": "F294",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Pass in den Lauf · Mit anschließendem Pass",
+    "description": "Spielt einen präzisen Pass in den Lauf des Mitspielers. Führt die Aktion mindestens einmal aus und spielt anschließend einen erfolgreichen Pass zum eigenen Team. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 6
+  },
+  {
+    "id": "F295",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Pass in den Lauf · Im erfolgreichen Angriff",
+    "description": "Spielt einen präzisen Pass in den Lauf des Mitspielers. Führt die Aktion im selben Angriff aus, aus dem innerhalb der nächsten drei eigenen Ballaktionen ein regelkonformer Torabschluss entsteht. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 8
+  },
+  {
+    "id": "F296",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Ballgewinn technisch · Einmal im Spiel",
+    "description": "Erobert den Ball regelkonform und kontrolliert ihn vor dem nächsten Pass. Führt die Aktion mindestens einmal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 4
+  },
+  {
+    "id": "F297",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Ballgewinn technisch · Zweimal im Spiel",
+    "description": "Erobert den Ball regelkonform und kontrolliert ihn vor dem nächsten Pass. Führt die Aktion mindestens zweimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 5
+  },
+  {
+    "id": "F298",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Ballgewinn technisch · Dreimal im Spiel",
+    "description": "Erobert den Ball regelkonform und kontrolliert ihn vor dem nächsten Pass. Führt die Aktion mindestens dreimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 7
+  },
+  {
+    "id": "F299",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Ballgewinn technisch · Mit anschließendem Pass",
+    "description": "Erobert den Ball regelkonform und kontrolliert ihn vor dem nächsten Pass. Führt die Aktion mindestens einmal aus und spielt anschließend einen erfolgreichen Pass zum eigenen Team. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 6
+  },
+  {
+    "id": "F300",
+    "sport": "football",
+    "category": "Technik",
+    "title": "Ballgewinn technisch · Im erfolgreichen Angriff",
+    "description": "Erobert den Ball regelkonform und kontrolliert ihn vor dem nächsten Pass. Führt die Aktion im selben Angriff aus, aus dem innerhalb der nächsten drei eigenen Ballaktionen ein regelkonformer Torabschluss entsteht. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 8
+  },
+  {
+    "id": "F301",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Breite geben · Einmal im Spiel",
+    "description": "Besetzt beim Angriff beide Außenbahnen und nutzt eine für den Spielaufbau. Führt die Aktion mindestens einmal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 4
+  },
+  {
+    "id": "F302",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Breite geben · Zweimal im Spiel",
+    "description": "Besetzt beim Angriff beide Außenbahnen und nutzt eine für den Spielaufbau. Führt die Aktion mindestens zweimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 5
+  },
+  {
+    "id": "F303",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Breite geben · Dreimal im Spiel",
+    "description": "Besetzt beim Angriff beide Außenbahnen und nutzt eine für den Spielaufbau. Führt die Aktion mindestens dreimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 7
+  },
+  {
+    "id": "F304",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Breite geben · Mit anschließendem Pass",
+    "description": "Besetzt beim Angriff beide Außenbahnen und nutzt eine für den Spielaufbau. Führt die Aktion mindestens einmal aus und spielt anschließend einen erfolgreichen Pass zum eigenen Team. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 6
+  },
+  {
+    "id": "F305",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Breite geben · Im erfolgreichen Angriff",
+    "description": "Besetzt beim Angriff beide Außenbahnen und nutzt eine für den Spielaufbau. Führt die Aktion im selben Angriff aus, aus dem innerhalb der nächsten drei eigenen Ballaktionen ein regelkonformer Torabschluss entsteht. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 8
+  },
+  {
+    "id": "F306",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Tiefe anbieten · Einmal im Spiel",
+    "description": "Ein Spieler startet in einen freien Raum hinter die gegnerische Linie und wird angespielt. Führt die Aktion mindestens einmal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 4
+  },
+  {
+    "id": "F307",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Tiefe anbieten · Zweimal im Spiel",
+    "description": "Ein Spieler startet in einen freien Raum hinter die gegnerische Linie und wird angespielt. Führt die Aktion mindestens zweimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 5
+  },
+  {
+    "id": "F308",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Tiefe anbieten · Dreimal im Spiel",
+    "description": "Ein Spieler startet in einen freien Raum hinter die gegnerische Linie und wird angespielt. Führt die Aktion mindestens dreimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 7
+  },
+  {
+    "id": "F309",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Tiefe anbieten · Mit anschließendem Pass",
+    "description": "Ein Spieler startet in einen freien Raum hinter die gegnerische Linie und wird angespielt. Führt die Aktion mindestens einmal aus und spielt anschließend einen erfolgreichen Pass zum eigenen Team. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 6
+  },
+  {
+    "id": "F310",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Tiefe anbieten · Im erfolgreichen Angriff",
+    "description": "Ein Spieler startet in einen freien Raum hinter die gegnerische Linie und wird angespielt. Führt die Aktion im selben Angriff aus, aus dem innerhalb der nächsten drei eigenen Ballaktionen ein regelkonformer Torabschluss entsteht. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 8
+  },
+  {
+    "id": "F311",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Dreiecksbildung · Einmal im Spiel",
+    "description": "Bildet ein erkennbares Passdreieck und spielt über zwei seiner Ecken. Führt die Aktion mindestens einmal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 4
+  },
+  {
+    "id": "F312",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Dreiecksbildung · Zweimal im Spiel",
+    "description": "Bildet ein erkennbares Passdreieck und spielt über zwei seiner Ecken. Führt die Aktion mindestens zweimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 5
+  },
+  {
+    "id": "F313",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Dreiecksbildung · Dreimal im Spiel",
+    "description": "Bildet ein erkennbares Passdreieck und spielt über zwei seiner Ecken. Führt die Aktion mindestens dreimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 7
+  },
+  {
+    "id": "F314",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Dreiecksbildung · Mit anschließendem Pass",
+    "description": "Bildet ein erkennbares Passdreieck und spielt über zwei seiner Ecken. Führt die Aktion mindestens einmal aus und spielt anschließend einen erfolgreichen Pass zum eigenen Team. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 6
+  },
+  {
+    "id": "F315",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Dreiecksbildung · Im erfolgreichen Angriff",
+    "description": "Bildet ein erkennbares Passdreieck und spielt über zwei seiner Ecken. Führt die Aktion im selben Angriff aus, aus dem innerhalb der nächsten drei eigenen Ballaktionen ein regelkonformer Torabschluss entsteht. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 8
+  },
+  {
+    "id": "F316",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Freilaufbewegung · Einmal im Spiel",
+    "description": "Löst euch durch eine aktive Bewegung vom Gegenspieler und werdet anspielbar. Führt die Aktion mindestens einmal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 4
+  },
+  {
+    "id": "F317",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Freilaufbewegung · Zweimal im Spiel",
+    "description": "Löst euch durch eine aktive Bewegung vom Gegenspieler und werdet anspielbar. Führt die Aktion mindestens zweimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 5
+  },
+  {
+    "id": "F318",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Freilaufbewegung · Dreimal im Spiel",
+    "description": "Löst euch durch eine aktive Bewegung vom Gegenspieler und werdet anspielbar. Führt die Aktion mindestens dreimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 7
+  },
+  {
+    "id": "F319",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Freilaufbewegung · Mit anschließendem Pass",
+    "description": "Löst euch durch eine aktive Bewegung vom Gegenspieler und werdet anspielbar. Führt die Aktion mindestens einmal aus und spielt anschließend einen erfolgreichen Pass zum eigenen Team. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 6
+  },
+  {
+    "id": "F320",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Freilaufbewegung · Im erfolgreichen Angriff",
+    "description": "Löst euch durch eine aktive Bewegung vom Gegenspieler und werdet anspielbar. Führt die Aktion im selben Angriff aus, aus dem innerhalb der nächsten drei eigenen Ballaktionen ein regelkonformer Torabschluss entsteht. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 8
+  },
+  {
+    "id": "F321",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Spielverlagerung · Einmal im Spiel",
+    "description": "Verlagert den Ball kontrolliert von einer Spielfeldseite auf die andere. Führt die Aktion mindestens einmal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 4
+  },
+  {
+    "id": "F322",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Spielverlagerung · Zweimal im Spiel",
+    "description": "Verlagert den Ball kontrolliert von einer Spielfeldseite auf die andere. Führt die Aktion mindestens zweimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 5
+  },
+  {
+    "id": "F323",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Spielverlagerung · Dreimal im Spiel",
+    "description": "Verlagert den Ball kontrolliert von einer Spielfeldseite auf die andere. Führt die Aktion mindestens dreimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 7
+  },
+  {
+    "id": "F324",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Spielverlagerung · Mit anschließendem Pass",
+    "description": "Verlagert den Ball kontrolliert von einer Spielfeldseite auf die andere. Führt die Aktion mindestens einmal aus und spielt anschließend einen erfolgreichen Pass zum eigenen Team. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 6
+  },
+  {
+    "id": "F325",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Spielverlagerung · Im erfolgreichen Angriff",
+    "description": "Verlagert den Ball kontrolliert von einer Spielfeldseite auf die andere. Führt die Aktion im selben Angriff aus, aus dem innerhalb der nächsten drei eigenen Ballaktionen ein regelkonformer Torabschluss entsteht. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 8
+  },
+  {
+    "id": "F326",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Seitenwechsel nach Druck · Einmal im Spiel",
+    "description": "Wechselt nach Gegnerdruck auf einer Seite über einen Mitspieler die Spielseite. Führt die Aktion mindestens einmal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 4
+  },
+  {
+    "id": "F327",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Seitenwechsel nach Druck · Zweimal im Spiel",
+    "description": "Wechselt nach Gegnerdruck auf einer Seite über einen Mitspieler die Spielseite. Führt die Aktion mindestens zweimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 5
+  },
+  {
+    "id": "F328",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Seitenwechsel nach Druck · Dreimal im Spiel",
+    "description": "Wechselt nach Gegnerdruck auf einer Seite über einen Mitspieler die Spielseite. Führt die Aktion mindestens dreimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 7
+  },
+  {
+    "id": "F329",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Seitenwechsel nach Druck · Mit anschließendem Pass",
+    "description": "Wechselt nach Gegnerdruck auf einer Seite über einen Mitspieler die Spielseite. Führt die Aktion mindestens einmal aus und spielt anschließend einen erfolgreichen Pass zum eigenen Team. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 6
+  },
+  {
+    "id": "F330",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Seitenwechsel nach Druck · Im erfolgreichen Angriff",
+    "description": "Wechselt nach Gegnerdruck auf einer Seite über einen Mitspieler die Spielseite. Führt die Aktion im selben Angriff aus, aus dem innerhalb der nächsten drei eigenen Ballaktionen ein regelkonformer Torabschluss entsteht. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 8
+  },
+  {
+    "id": "F331",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Überzahl schaffen · Einmal im Spiel",
+    "description": "Spielt eine Überzahlsituation gegen den Ballführenden heraus. Führt die Aktion mindestens einmal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 4
+  },
+  {
+    "id": "F332",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Überzahl schaffen · Zweimal im Spiel",
+    "description": "Spielt eine Überzahlsituation gegen den Ballführenden heraus. Führt die Aktion mindestens zweimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 5
+  },
+  {
+    "id": "F333",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Überzahl schaffen · Dreimal im Spiel",
+    "description": "Spielt eine Überzahlsituation gegen den Ballführenden heraus. Führt die Aktion mindestens dreimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 7
+  },
+  {
+    "id": "F334",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Überzahl schaffen · Mit anschließendem Pass",
+    "description": "Spielt eine Überzahlsituation gegen den Ballführenden heraus. Führt die Aktion mindestens einmal aus und spielt anschließend einen erfolgreichen Pass zum eigenen Team. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 6
+  },
+  {
+    "id": "F335",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Überzahl schaffen · Im erfolgreichen Angriff",
+    "description": "Spielt eine Überzahlsituation gegen den Ballführenden heraus. Führt die Aktion im selben Angriff aus, aus dem innerhalb der nächsten drei eigenen Ballaktionen ein regelkonformer Torabschluss entsteht. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 8
+  },
+  {
+    "id": "F336",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Hinterlaufen · Einmal im Spiel",
+    "description": "Hinterlauft einen ballführenden Mitspieler und erhaltet den Ball. Führt die Aktion mindestens einmal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 4
+  },
+  {
+    "id": "F337",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Hinterlaufen · Zweimal im Spiel",
+    "description": "Hinterlauft einen ballführenden Mitspieler und erhaltet den Ball. Führt die Aktion mindestens zweimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 5
+  },
+  {
+    "id": "F338",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Hinterlaufen · Dreimal im Spiel",
+    "description": "Hinterlauft einen ballführenden Mitspieler und erhaltet den Ball. Führt die Aktion mindestens dreimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 7
+  },
+  {
+    "id": "F339",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Hinterlaufen · Mit anschließendem Pass",
+    "description": "Hinterlauft einen ballführenden Mitspieler und erhaltet den Ball. Führt die Aktion mindestens einmal aus und spielt anschließend einen erfolgreichen Pass zum eigenen Team. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 6
+  },
+  {
+    "id": "F340",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Hinterlaufen · Im erfolgreichen Angriff",
+    "description": "Hinterlauft einen ballführenden Mitspieler und erhaltet den Ball. Führt die Aktion im selben Angriff aus, aus dem innerhalb der nächsten drei eigenen Ballaktionen ein regelkonformer Torabschluss entsteht. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 8
+  },
+  {
+    "id": "F341",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Kreuzen · Einmal im Spiel",
+    "description": "Zwei angreifende Spieler kreuzen ihre Laufwege und schaffen eine neue Passoption. Führt die Aktion mindestens einmal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 4
+  },
+  {
+    "id": "F342",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Kreuzen · Zweimal im Spiel",
+    "description": "Zwei angreifende Spieler kreuzen ihre Laufwege und schaffen eine neue Passoption. Führt die Aktion mindestens zweimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 5
+  },
+  {
+    "id": "F343",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Kreuzen · Dreimal im Spiel",
+    "description": "Zwei angreifende Spieler kreuzen ihre Laufwege und schaffen eine neue Passoption. Führt die Aktion mindestens dreimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 7
+  },
+  {
+    "id": "F344",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Kreuzen · Mit anschließendem Pass",
+    "description": "Zwei angreifende Spieler kreuzen ihre Laufwege und schaffen eine neue Passoption. Führt die Aktion mindestens einmal aus und spielt anschließend einen erfolgreichen Pass zum eigenen Team. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 6
+  },
+  {
+    "id": "F345",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Kreuzen · Im erfolgreichen Angriff",
+    "description": "Zwei angreifende Spieler kreuzen ihre Laufwege und schaffen eine neue Passoption. Führt die Aktion im selben Angriff aus, aus dem innerhalb der nächsten drei eigenen Ballaktionen ein regelkonformer Torabschluss entsteht. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 8
+  },
+  {
+    "id": "F346",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Klatsch und Tiefe · Einmal im Spiel",
+    "description": "Lasst einen Pass zum nachrückenden Mitspieler klatschen und spielt danach in die Tiefe. Führt die Aktion mindestens einmal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 4
+  },
+  {
+    "id": "F347",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Klatsch und Tiefe · Zweimal im Spiel",
+    "description": "Lasst einen Pass zum nachrückenden Mitspieler klatschen und spielt danach in die Tiefe. Führt die Aktion mindestens zweimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 5
+  },
+  {
+    "id": "F348",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Klatsch und Tiefe · Dreimal im Spiel",
+    "description": "Lasst einen Pass zum nachrückenden Mitspieler klatschen und spielt danach in die Tiefe. Führt die Aktion mindestens dreimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 7
+  },
+  {
+    "id": "F349",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Klatsch und Tiefe · Mit anschließendem Pass",
+    "description": "Lasst einen Pass zum nachrückenden Mitspieler klatschen und spielt danach in die Tiefe. Führt die Aktion mindestens einmal aus und spielt anschließend einen erfolgreichen Pass zum eigenen Team. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 6
+  },
+  {
+    "id": "F350",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Klatsch und Tiefe · Im erfolgreichen Angriff",
+    "description": "Lasst einen Pass zum nachrückenden Mitspieler klatschen und spielt danach in die Tiefe. Führt die Aktion im selben Angriff aus, aus dem innerhalb der nächsten drei eigenen Ballaktionen ein regelkonformer Torabschluss entsteht. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 8
+  },
+  {
+    "id": "F351",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Ballferne Seite · Einmal im Spiel",
+    "description": "Verwendet im Angriff einen freien Mitspieler auf der ballfernen Seite. Führt die Aktion mindestens einmal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 4
+  },
+  {
+    "id": "F352",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Ballferne Seite · Zweimal im Spiel",
+    "description": "Verwendet im Angriff einen freien Mitspieler auf der ballfernen Seite. Führt die Aktion mindestens zweimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 5
+  },
+  {
+    "id": "F353",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Ballferne Seite · Dreimal im Spiel",
+    "description": "Verwendet im Angriff einen freien Mitspieler auf der ballfernen Seite. Führt die Aktion mindestens dreimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 7
+  },
+  {
+    "id": "F354",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Ballferne Seite · Mit anschließendem Pass",
+    "description": "Verwendet im Angriff einen freien Mitspieler auf der ballfernen Seite. Führt die Aktion mindestens einmal aus und spielt anschließend einen erfolgreichen Pass zum eigenen Team. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 6
+  },
+  {
+    "id": "F355",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Ballferne Seite · Im erfolgreichen Angriff",
+    "description": "Verwendet im Angriff einen freien Mitspieler auf der ballfernen Seite. Führt die Aktion im selben Angriff aus, aus dem innerhalb der nächsten drei eigenen Ballaktionen ein regelkonformer Torabschluss entsteht. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 8
+  },
+  {
+    "id": "F356",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Umschalten nach Ballgewinn · Einmal im Spiel",
+    "description": "Spielt nach einer Balleroberung einen gezielten ersten Pass nach vorne. Führt die Aktion mindestens einmal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 4
+  },
+  {
+    "id": "F357",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Umschalten nach Ballgewinn · Zweimal im Spiel",
+    "description": "Spielt nach einer Balleroberung einen gezielten ersten Pass nach vorne. Führt die Aktion mindestens zweimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 5
+  },
+  {
+    "id": "F358",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Umschalten nach Ballgewinn · Dreimal im Spiel",
+    "description": "Spielt nach einer Balleroberung einen gezielten ersten Pass nach vorne. Führt die Aktion mindestens dreimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 7
+  },
+  {
+    "id": "F359",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Umschalten nach Ballgewinn · Mit anschließendem Pass",
+    "description": "Spielt nach einer Balleroberung einen gezielten ersten Pass nach vorne. Führt die Aktion mindestens einmal aus und spielt anschließend einen erfolgreichen Pass zum eigenen Team. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 6
+  },
+  {
+    "id": "F360",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Umschalten nach Ballgewinn · Im erfolgreichen Angriff",
+    "description": "Spielt nach einer Balleroberung einen gezielten ersten Pass nach vorne. Führt die Aktion im selben Angriff aus, aus dem innerhalb der nächsten drei eigenen Ballaktionen ein regelkonformer Torabschluss entsteht. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 8
+  },
+  {
+    "id": "F361",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Umschalten nach Ballverlust · Einmal im Spiel",
+    "description": "Geht nach einem Ballverlust sofort gemeinsam in eine geordnete Defensivposition. Führt die Aktion mindestens einmal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 4
+  },
+  {
+    "id": "F362",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Umschalten nach Ballverlust · Zweimal im Spiel",
+    "description": "Geht nach einem Ballverlust sofort gemeinsam in eine geordnete Defensivposition. Führt die Aktion mindestens zweimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 5
+  },
+  {
+    "id": "F363",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Umschalten nach Ballverlust · Dreimal im Spiel",
+    "description": "Geht nach einem Ballverlust sofort gemeinsam in eine geordnete Defensivposition. Führt die Aktion mindestens dreimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 7
+  },
+  {
+    "id": "F364",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Umschalten nach Ballverlust · Mit anschließendem Pass",
+    "description": "Geht nach einem Ballverlust sofort gemeinsam in eine geordnete Defensivposition. Führt die Aktion mindestens einmal aus und spielt anschließend einen erfolgreichen Pass zum eigenen Team. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 6
+  },
+  {
+    "id": "F365",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Umschalten nach Ballverlust · Im erfolgreichen Angriff",
+    "description": "Geht nach einem Ballverlust sofort gemeinsam in eine geordnete Defensivposition. Führt die Aktion im selben Angriff aus, aus dem innerhalb der nächsten drei eigenen Ballaktionen ein regelkonformer Torabschluss entsteht. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 8
+  },
+  {
+    "id": "F366",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Passweg zustellen · Einmal im Spiel",
+    "description": "Verhindert durch kluge Stellung einen direkten Passweg des Gegners. Führt die Aktion mindestens einmal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 4
+  },
+  {
+    "id": "F367",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Passweg zustellen · Zweimal im Spiel",
+    "description": "Verhindert durch kluge Stellung einen direkten Passweg des Gegners. Führt die Aktion mindestens zweimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 5
+  },
+  {
+    "id": "F368",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Passweg zustellen · Dreimal im Spiel",
+    "description": "Verhindert durch kluge Stellung einen direkten Passweg des Gegners. Führt die Aktion mindestens dreimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 7
+  },
+  {
+    "id": "F369",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Passweg zustellen · Mit anschließendem Pass",
+    "description": "Verhindert durch kluge Stellung einen direkten Passweg des Gegners. Führt die Aktion mindestens einmal aus und spielt anschließend einen erfolgreichen Pass zum eigenen Team. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 6
+  },
+  {
+    "id": "F370",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Passweg zustellen · Im erfolgreichen Angriff",
+    "description": "Verhindert durch kluge Stellung einen direkten Passweg des Gegners. Führt die Aktion im selben Angriff aus, aus dem innerhalb der nächsten drei eigenen Ballaktionen ein regelkonformer Torabschluss entsteht. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 8
+  },
+  {
+    "id": "F371",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Gegner nach außen lenken · Einmal im Spiel",
+    "description": "Lenkt den ballführenden Gegner ohne Foul zur Außenbahn. Führt die Aktion mindestens einmal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 4
+  },
+  {
+    "id": "F372",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Gegner nach außen lenken · Zweimal im Spiel",
+    "description": "Lenkt den ballführenden Gegner ohne Foul zur Außenbahn. Führt die Aktion mindestens zweimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 5
+  },
+  {
+    "id": "F373",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Gegner nach außen lenken · Dreimal im Spiel",
+    "description": "Lenkt den ballführenden Gegner ohne Foul zur Außenbahn. Führt die Aktion mindestens dreimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 7
+  },
+  {
+    "id": "F374",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Gegner nach außen lenken · Mit anschließendem Pass",
+    "description": "Lenkt den ballführenden Gegner ohne Foul zur Außenbahn. Führt die Aktion mindestens einmal aus und spielt anschließend einen erfolgreichen Pass zum eigenen Team. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 6
+  },
+  {
+    "id": "F375",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Gegner nach außen lenken · Im erfolgreichen Angriff",
+    "description": "Lenkt den ballführenden Gegner ohne Foul zur Außenbahn. Führt die Aktion im selben Angriff aus, aus dem innerhalb der nächsten drei eigenen Ballaktionen ein regelkonformer Torabschluss entsteht. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 8
+  },
+  {
+    "id": "F376",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Abstände in der Abwehr · Einmal im Spiel",
+    "description": "Verschiebt als Team und haltet dabei anspielbare Abstände zwischen euch. Führt die Aktion mindestens einmal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 4
+  },
+  {
+    "id": "F377",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Abstände in der Abwehr · Zweimal im Spiel",
+    "description": "Verschiebt als Team und haltet dabei anspielbare Abstände zwischen euch. Führt die Aktion mindestens zweimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 5
+  },
+  {
+    "id": "F378",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Abstände in der Abwehr · Dreimal im Spiel",
+    "description": "Verschiebt als Team und haltet dabei anspielbare Abstände zwischen euch. Führt die Aktion mindestens dreimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 7
+  },
+  {
+    "id": "F379",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Abstände in der Abwehr · Mit anschließendem Pass",
+    "description": "Verschiebt als Team und haltet dabei anspielbare Abstände zwischen euch. Führt die Aktion mindestens einmal aus und spielt anschließend einen erfolgreichen Pass zum eigenen Team. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 6
+  },
+  {
+    "id": "F380",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Abstände in der Abwehr · Im erfolgreichen Angriff",
+    "description": "Verschiebt als Team und haltet dabei anspielbare Abstände zwischen euch. Führt die Aktion im selben Angriff aus, aus dem innerhalb der nächsten drei eigenen Ballaktionen ein regelkonformer Torabschluss entsteht. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 8
+  },
+  {
+    "id": "F381",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Rückraum besetzen · Einmal im Spiel",
+    "description": "Ein Mitspieler bietet sich beim Angriff im Rückraum an und erhält einen Pass. Führt die Aktion mindestens einmal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 4
+  },
+  {
+    "id": "F382",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Rückraum besetzen · Zweimal im Spiel",
+    "description": "Ein Mitspieler bietet sich beim Angriff im Rückraum an und erhält einen Pass. Führt die Aktion mindestens zweimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 5
+  },
+  {
+    "id": "F383",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Rückraum besetzen · Dreimal im Spiel",
+    "description": "Ein Mitspieler bietet sich beim Angriff im Rückraum an und erhält einen Pass. Führt die Aktion mindestens dreimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 7
+  },
+  {
+    "id": "F384",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Rückraum besetzen · Mit anschließendem Pass",
+    "description": "Ein Mitspieler bietet sich beim Angriff im Rückraum an und erhält einen Pass. Führt die Aktion mindestens einmal aus und spielt anschließend einen erfolgreichen Pass zum eigenen Team. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 6
+  },
+  {
+    "id": "F385",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Rückraum besetzen · Im erfolgreichen Angriff",
+    "description": "Ein Mitspieler bietet sich beim Angriff im Rückraum an und erhält einen Pass. Führt die Aktion im selben Angriff aus, aus dem innerhalb der nächsten drei eigenen Ballaktionen ein regelkonformer Torabschluss entsteht. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 8
+  },
+  {
+    "id": "F386",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Dritter Mann · Einmal im Spiel",
+    "description": "Spielt eine Folge, in der Spieler A zu B passt und B zu C weiterleitet. Führt die Aktion mindestens einmal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 4
+  },
+  {
+    "id": "F387",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Dritter Mann · Zweimal im Spiel",
+    "description": "Spielt eine Folge, in der Spieler A zu B passt und B zu C weiterleitet. Führt die Aktion mindestens zweimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 5
+  },
+  {
+    "id": "F388",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Dritter Mann · Dreimal im Spiel",
+    "description": "Spielt eine Folge, in der Spieler A zu B passt und B zu C weiterleitet. Führt die Aktion mindestens dreimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 7
+  },
+  {
+    "id": "F389",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Dritter Mann · Mit anschließendem Pass",
+    "description": "Spielt eine Folge, in der Spieler A zu B passt und B zu C weiterleitet. Führt die Aktion mindestens einmal aus und spielt anschließend einen erfolgreichen Pass zum eigenen Team. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 6
+  },
+  {
+    "id": "F390",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Dritter Mann · Im erfolgreichen Angriff",
+    "description": "Spielt eine Folge, in der Spieler A zu B passt und B zu C weiterleitet. Führt die Aktion im selben Angriff aus, aus dem innerhalb der nächsten drei eigenen Ballaktionen ein regelkonformer Torabschluss entsteht. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 8
+  },
+  {
+    "id": "F391",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Rückpass und Neuaufbau · Einmal im Spiel",
+    "description": "Spielt bewusst zurück und eröffnet den Angriff über eine neue Passoption. Führt die Aktion mindestens einmal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 4
+  },
+  {
+    "id": "F392",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Rückpass und Neuaufbau · Zweimal im Spiel",
+    "description": "Spielt bewusst zurück und eröffnet den Angriff über eine neue Passoption. Führt die Aktion mindestens zweimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 5
+  },
+  {
+    "id": "F393",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Rückpass und Neuaufbau · Dreimal im Spiel",
+    "description": "Spielt bewusst zurück und eröffnet den Angriff über eine neue Passoption. Führt die Aktion mindestens dreimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 7
+  },
+  {
+    "id": "F394",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Rückpass und Neuaufbau · Mit anschließendem Pass",
+    "description": "Spielt bewusst zurück und eröffnet den Angriff über eine neue Passoption. Führt die Aktion mindestens einmal aus und spielt anschließend einen erfolgreichen Pass zum eigenen Team. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 6
+  },
+  {
+    "id": "F395",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Rückpass und Neuaufbau · Im erfolgreichen Angriff",
+    "description": "Spielt bewusst zurück und eröffnet den Angriff über eine neue Passoption. Führt die Aktion im selben Angriff aus, aus dem innerhalb der nächsten drei eigenen Ballaktionen ein regelkonformer Torabschluss entsteht. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 8
+  },
+  {
+    "id": "F396",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Abschluss vorbereiten · Einmal im Spiel",
+    "description": "Spielt einen Ball in einen freien Abschlussraum, bevor ein Mitspieler schießt. Führt die Aktion mindestens einmal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 4
+  },
+  {
+    "id": "F397",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Abschluss vorbereiten · Zweimal im Spiel",
+    "description": "Spielt einen Ball in einen freien Abschlussraum, bevor ein Mitspieler schießt. Führt die Aktion mindestens zweimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 5
+  },
+  {
+    "id": "F398",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Abschluss vorbereiten · Dreimal im Spiel",
+    "description": "Spielt einen Ball in einen freien Abschlussraum, bevor ein Mitspieler schießt. Führt die Aktion mindestens dreimal während des Spiels erfolgreich aus. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 7
+  },
+  {
+    "id": "F399",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Abschluss vorbereiten · Mit anschließendem Pass",
+    "description": "Spielt einen Ball in einen freien Abschlussraum, bevor ein Mitspieler schießt. Führt die Aktion mindestens einmal aus und spielt anschließend einen erfolgreichen Pass zum eigenen Team. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 6
+  },
+  {
+    "id": "F400",
+    "sport": "football",
+    "category": "Taktik",
+    "title": "Abschluss vorbereiten · Im erfolgreichen Angriff",
+    "description": "Spielt einen Ball in einen freien Abschlussraum, bevor ein Mitspieler schießt. Führt die Aktion im selben Angriff aus, aus dem innerhalb der nächsten drei eigenen Ballaktionen ein regelkonformer Torabschluss entsteht. Die Turnierleitung bestätigt die Erfüllung.",
+    "points": 8
   }
 ]
