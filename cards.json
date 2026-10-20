@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "K001",
+    "sport": "football",
+    "title": "Linker Fuß",
+    "description": "Tore zählen für euch nur, wenn der Abschluss mit dem linken Fuß erfolgt.",
+    "points": 5
+  },
+  {
+    "id": "K002",
+    "sport": "football",
+    "title": "Rechter Fuß",
+    "description": "Tore zählen für euch nur, wenn der Abschluss mit dem rechten Fuß erfolgt.",
+    "points": 5
+  },
+  {
+    "id": "K003",
+    "sport": "football",
+    "title": "Außenrist-Abschluss",
+    "description": "Ein Tor zählt nur nach einem Abschluss mit dem Außenrist.",
+    "points": 8
+  },
+  {
+    "id": "K004",
+    "sport": "football",
+    "title": "Direktabschluss",
+    "description": "Ein Tor zählt nur, wenn der Torschuss ohne vorherige Ballannahme erfolgt.",
+    "points": 7
+  },
+  {
+    "id": "K005",
+    "sport": "football",
+    "title": "Doppelpass",
+    "description": "Vor einem gültigen Tor muss ein Doppelpass gespielt werden.",
+    "points": 6
+  },
+  {
+    "id": "K006",
+    "sport": "football",
+    "title": "Flügel links",
+    "description": "Ein Tor zählt nur, wenn der Angriff zuvor über die linke Außenbahn lief.",
+    "points": 5
+  },
+  {
+    "id": "K007",
+    "sport": "football",
+    "title": "Flügel rechts",
+    "description": "Ein Tor zählt nur, wenn der Angriff zuvor über die rechte Außenbahn lief.",
+    "points": 5
+  },
+  {
+    "id": "K008",
+    "sport": "football",
+    "title": "Drei Pässe",
+    "description": "Vor einem gültigen Tor müssen mindestens drei Pässe in Folge gelingen.",
+    "points": 4
+  },
+  {
+    "id": "K009",
+    "sport": "football",
+    "title": "Fünf Pässe",
+    "description": "Vor einem gültigen Tor müssen mindestens fünf Pässe in Folge gelingen.",
+    "points": 6
+  },
+  {
+    "id": "K010",
+    "sport": "football",
+    "title": "Alle beteiligt",
+    "description": "Vor einem gültigen Tor müssen mindestens drei verschiedene Spieler den Ball berührt haben.",
+    "points": 6
+  },
+  {
+    "id": "K011",
+    "sport": "football",
+    "title": "Dribbel-Tor",
+    "description": "Vor einem gültigen Tor muss ein Angreifer einen Gegenspieler im Dribbling überwinden.",
+    "points": 7
+  },
+  {
+    "id": "K012",
+    "sport": "football",
+    "title": "Schwacher Fuß",
+    "description": "Tore zählen nur mit dem individuell schwächeren Fuß des Schützen.",
+    "points": 8
+  },
+  {
+    "id": "K013",
+    "sport": "football",
+    "title": "Rückpass-Vorlage",
+    "description": "Vor einem gültigen Tor muss der letzte Pass vom Flügel zurück in den Rückraum gehen.",
+    "points": 6
+  },
+  {
+    "id": "K014",
+    "sport": "football",
+    "title": "Steilpass",
+    "description": "Ein gültiges Tor muss durch einen Pass in die Tiefe vorbereitet werden.",
+    "points": 6
+  },
+  {
+    "id": "K015",
+    "sport": "football",
+    "title": "Ballgewinn-Tor",
+    "description": "Erzielt binnen zehn Sekunden nach einem Ballgewinn ein Tor.",
+    "points": 7
+  },
+  {
+    "id": "K016",
+    "sport": "football",
+    "title": "Konter-Tor",
+    "description": "Erzielt ein Tor aus einem schnellen Gegenangriff mit höchstens vier Pässen.",
+    "points": 7
+  },
+  {
+    "id": "K017",
+    "sport": "football",
+    "title": "Flachpass-Kette",
+    "description": "Vor einem gültigen Tor müssen drei flache Pässe in Folge gespielt werden.",
+    "points": 5
+  },
+  {
+    "id": "K018",
+    "sport": "football",
+    "title": "Seitenwechsel",
+    "description": "Vor einem gültigen Tor muss die Angriffsseite gewechselt werden.",
+    "points": 7
+  },
+  {
+    "id": "K019",
+    "sport": "football",
+    "title": "Tor aus zweiter Reihe",
+    "description": "Ein Tor zählt nur nach einem Abschluss außerhalb des vorher markierten Strafraumbereichs.",
+    "points": 8
+  },
+  {
+    "id": "K020",
+    "sport": "football",
+    "title": "Fintenpflicht",
+    "description": "Vor einem gültigen Tor muss im Angriff mindestens eine Finte gelingen.",
+    "points": 6
+  },
+  {
+    "id": "K021",
+    "sport": "football",
+    "title": "Flacher Querpass",
+    "description": "Vor einem gültigen Tor muss ein flacher Querpass in den Strafraumbereich gespielt werden.",
+    "points": 8
+  },
+  {
+    "id": "K022",
+    "sport": "football",
+    "title": "Pass vor Tor",
+    "description": "Ein gültiges Tor muss nach einer direkten Vorlage eines Mitspielers fallen.",
+    "points": 4
+  },
+  {
+    "id": "K023",
+    "sport": "football",
+    "title": "Kurzer Eckball",
+    "description": "Erspielt nach einer kurz ausgeführten Ecke eine Torchance.",
+    "points": 6
+  },
+  {
+    "id": "K024",
+    "sport": "football",
+    "title": "Einwurf-Kombination",
+    "description": "Erspielt nach einem Einwurf mit zwei direkten Anschlussaktionen eine Torchance.",
+    "points": 6
+  },
+  {
+    "id": "K025",
+    "sport": "football",
+    "title": "Ruhiger Aufbau",
+    "description": "Erzielt ein Tor nach kontrolliertem Spielaufbau mit mindestens vier Pässen.",
+    "points": 6
+  },
+  {
+    "id": "K026",
+    "sport": "football",
+    "title": "Abwehrspieler trifft",
+    "description": "Ein Tor zählt nur, wenn ein vor dem Spiel festgelegter Defensivspieler trifft.",
+    "points": 8
+  },
+  {
+    "id": "K027",
+    "sport": "football",
+    "title": "Zwei Kontakte",
+    "description": "In der gegnerischen Hälfte sind maximal zwei Ballkontakte pro Spieler erlaubt.",
+    "points": 6
+  },
+  {
+    "id": "K028",
+    "sport": "football",
+    "title": "Ein Kontakt",
+    "description": "In der gegnerischen Hälfte ist pro Ballbesitz höchstens ein Ballkontakt erlaubt.",
+    "points": 9
+  },
+  {
+    "id": "K029",
+    "sport": "football",
+    "title": "Breite nutzen",
+    "description": "Vor einem gültigen Tor muss der Ball beide Flügelzonen berührt haben.",
+    "points": 8
+  },
+  {
+    "id": "K030",
+    "sport": "football",
+    "title": "Rückraum-Abschluss",
+    "description": "Ein Tor zählt nur nach einem Rückpass auf einen nachrückenden Spieler.",
+    "points": 6
+  },
+  {
+    "id": "K031",
+    "sport": "football",
+    "title": "Linke Vorarbeit",
+    "description": "Die Torvorlage muss aus der linken Spielfeldhälfte kommen.",
+    "points": 5
+  },
+  {
+    "id": "K032",
+    "sport": "football",
+    "title": "Rechte Vorarbeit",
+    "description": "Die Torvorlage muss aus der rechten Spielfeldhälfte kommen.",
+    "points": 5
+  },
+  {
+    "id": "K033",
+    "sport": "football",
+    "title": "Pass ins Zentrum",
+    "description": "Vor einem gültigen Tor muss ein Pass durch die zentrale Zone gespielt werden.",
+    "points": 6
+  },
+  {
+    "id": "K034",
+    "sport": "football",
+    "title": "Pass nach außen",
+    "description": "Vor einem gültigen Tor muss der Ball vom Zentrum nach außen gespielt werden.",
+    "points": 5
+  },
+  {
+    "id": "K035",
+    "sport": "football",
+    "title": "Tor nach Balleroberung",
+    "description": "Erzielt direkt nach einem fairen Zweikampfgewinn eine Torchance oder ein Tor.",
+    "points": 6
+  },
+  {
+    "id": "K036",
+    "sport": "football",
+    "title": "Linker Fuß · Profi",
+    "description": "Tore zählen für euch nur, wenn der Abschluss mit dem linken Fuß erfolgt. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 8
+  },
+  {
+    "id": "K037",
+    "sport": "football",
+    "title": "Rechter Fuß · Profi",
+    "description": "Tore zählen für euch nur, wenn der Abschluss mit dem rechten Fuß erfolgt. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 8
+  },
+  {
+    "id": "K038",
+    "sport": "football",
+    "title": "Außenrist-Abschluss · Profi",
+    "description": "Ein Tor zählt nur nach einem Abschluss mit dem Außenrist. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 11
+  },
+  {
+    "id": "K039",
+    "sport": "football",
+    "title": "Direktabschluss · Profi",
+    "description": "Ein Tor zählt nur, wenn der Torschuss ohne vorherige Ballannahme erfolgt. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 10
+  },
+  {
+    "id": "K040",
+    "sport": "football",
+    "title": "Doppelpass · Profi",
+    "description": "Vor einem gültigen Tor muss ein Doppelpass gespielt werden. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 9
+  },
+  {
+    "id": "K041",
+    "sport": "football",
+    "title": "Flügel links · Profi",
+    "description": "Ein Tor zählt nur, wenn der Angriff zuvor über die linke Außenbahn lief. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 8
+  },
+  {
+    "id": "K042",
+    "sport": "football",
+    "title": "Flügel rechts · Profi",
+    "description": "Ein Tor zählt nur, wenn der Angriff zuvor über die rechte Außenbahn lief. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 8
+  },
+  {
+    "id": "K043",
+    "sport": "football",
+    "title": "Drei Pässe · Profi",
+    "description": "Vor einem gültigen Tor müssen mindestens drei Pässe in Folge gelingen. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 7
+  },
+  {
+    "id": "K044",
+    "sport": "football",
+    "title": "Fünf Pässe · Profi",
+    "description": "Vor einem gültigen Tor müssen mindestens fünf Pässe in Folge gelingen. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 9
+  },
+  {
+    "id": "K045",
+    "sport": "football",
+    "title": "Alle beteiligt · Profi",
+    "description": "Vor einem gültigen Tor müssen mindestens drei verschiedene Spieler den Ball berührt haben. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 9
+  },
+  {
+    "id": "K046",
+    "sport": "football",
+    "title": "Dribbel-Tor · Profi",
+    "description": "Vor einem gültigen Tor muss ein Angreifer einen Gegenspieler im Dribbling überwinden. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 10
+  },
+  {
+    "id": "K047",
+    "sport": "football",
+    "title": "Schwacher Fuß · Profi",
+    "description": "Tore zählen nur mit dem individuell schwächeren Fuß des Schützen. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 11
+  },
+  {
+    "id": "K048",
+    "sport": "football",
+    "title": "Rückpass-Vorlage · Profi",
+    "description": "Vor einem gültigen Tor muss der letzte Pass vom Flügel zurück in den Rückraum gehen. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 9
+  },
+  {
+    "id": "K049",
+    "sport": "football",
+    "title": "Steilpass · Profi",
+    "description": "Ein gültiges Tor muss durch einen Pass in die Tiefe vorbereitet werden. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 9
+  },
+  {
+    "id": "K050",
+    "sport": "football",
+    "title": "Ballgewinn-Tor · Profi",
+    "description": "Erzielt binnen zehn Sekunden nach einem Ballgewinn ein Tor. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 10
+  },
+  {
+    "id": "K051",
+    "sport": "football",
+    "title": "Konter-Tor · Profi",
+    "description": "Erzielt ein Tor aus einem schnellen Gegenangriff mit höchstens vier Pässen. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 10
+  },
+  {
+    "id": "K052",
+    "sport": "football",
+    "title": "Flachpass-Kette · Profi",
+    "description": "Vor einem gültigen Tor müssen drei flache Pässe in Folge gespielt werden. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 8
+  },
+  {
+    "id": "K053",
+    "sport": "football",
+    "title": "Seitenwechsel · Profi",
+    "description": "Vor einem gültigen Tor muss die Angriffsseite gewechselt werden. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 10
+  },
+  {
+    "id": "K054",
+    "sport": "football",
+    "title": "Tor aus zweiter Reihe · Profi",
+    "description": "Ein Tor zählt nur nach einem Abschluss außerhalb des vorher markierten Strafraumbereichs. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 11
+  },
+  {
+    "id": "K055",
+    "sport": "football",
+    "title": "Fintenpflicht · Profi",
+    "description": "Vor einem gültigen Tor muss im Angriff mindestens eine Finte gelingen. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 9
+  },
+  {
+    "id": "K056",
+    "sport": "football",
+    "title": "Flacher Querpass · Profi",
+    "description": "Vor einem gültigen Tor muss ein flacher Querpass in den Strafraumbereich gespielt werden. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 11
+  },
+  {
+    "id": "K057",
+    "sport": "football",
+    "title": "Pass vor Tor · Profi",
+    "description": "Ein gültiges Tor muss nach einer direkten Vorlage eines Mitspielers fallen. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 7
+  },
+  {
+    "id": "K058",
+    "sport": "football",
+    "title": "Kurzer Eckball · Profi",
+    "description": "Erspielt nach einer kurz ausgeführten Ecke eine Torchance. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 9
+  },
+  {
+    "id": "K059",
+    "sport": "football",
+    "title": "Einwurf-Kombination · Profi",
+    "description": "Erspielt nach einem Einwurf mit zwei direkten Anschlussaktionen eine Torchance. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 9
+  },
+  {
+    "id": "K060",
+    "sport": "football",
+    "title": "Ruhiger Aufbau · Profi",
+    "description": "Erzielt ein Tor nach kontrolliertem Spielaufbau mit mindestens vier Pässen. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 9
+  },
+  {
+    "id": "K061",
+    "sport": "football",
+    "title": "Abwehrspieler trifft · Profi",
+    "description": "Ein Tor zählt nur, wenn ein vor dem Spiel festgelegter Defensivspieler trifft. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 11
+  },
+  {
+    "id": "K062",
+    "sport": "football",
+    "title": "Zwei Kontakte · Profi",
+    "description": "In der gegnerischen Hälfte sind maximal zwei Ballkontakte pro Spieler erlaubt. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 9
+  },
+  {
+    "id": "K063",
+    "sport": "football",
+    "title": "Ein Kontakt · Profi",
+    "description": "In der gegnerischen Hälfte ist pro Ballbesitz höchstens ein Ballkontakt erlaubt. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 12
+  },
+  {
+    "id": "K064",
+    "sport": "football",
+    "title": "Breite nutzen · Profi",
+    "description": "Vor einem gültigen Tor muss der Ball beide Flügelzonen berührt haben. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 11
+  },
+  {
+    "id": "K065",
+    "sport": "football",
+    "title": "Rückraum-Abschluss · Profi",
+    "description": "Ein Tor zählt nur nach einem Rückpass auf einen nachrückenden Spieler. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 9
+  },
+  {
+    "id": "K066",
+    "sport": "football",
+    "title": "Linke Vorarbeit · Profi",
+    "description": "Die Torvorlage muss aus der linken Spielfeldhälfte kommen. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 8
+  },
+  {
+    "id": "K067",
+    "sport": "football",
+    "title": "Rechte Vorarbeit · Profi",
+    "description": "Die Torvorlage muss aus der rechten Spielfeldhälfte kommen. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 8
+  },
+  {
+    "id": "K068",
+    "sport": "football",
+    "title": "Pass ins Zentrum · Profi",
+    "description": "Vor einem gültigen Tor muss ein Pass durch die zentrale Zone gespielt werden. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 9
+  },
+  {
+    "id": "K069",
+    "sport": "football",
+    "title": "Pass nach außen · Profi",
+    "description": "Vor einem gültigen Tor muss der Ball vom Zentrum nach außen gespielt werden. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 8
+  },
+  {
+    "id": "K070",
+    "sport": "football",
+    "title": "Tor nach Balleroberung · Profi",
+    "description": "Erzielt direkt nach einem fairen Zweikampfgewinn eine Torchance oder ein Tor. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 9
+  },
+  {
+    "id": "H001",
+    "sport": "handball",
+    "title": "Wurf linke Hand",
+    "description": "Tore zählen nur durch Würfe mit der linken Hand.",
+    "points": 6
+  },
+  {
+    "id": "H002",
+    "sport": "handball",
+    "title": "Wurf rechte Hand",
+    "description": "Tore zählen nur durch Würfe mit der rechten Hand.",
+    "points": 5
+  },
+  {
+    "id": "H003",
+    "sport": "handball",
+    "title": "Sprungwurf",
+    "description": "Ein Tor zählt nur durch einen regelkonformen Sprungwurf.",
+    "points": 5
+  },
+  {
+    "id": "H004",
+    "sport": "handball",
+    "title": "Standwurf",
+    "description": "Ein Tor zählt nur durch einen regelkonformen Standwurf.",
+    "points": 6
+  },
+  {
+    "id": "H005",
+    "sport": "handball",
+    "title": "Außen links",
+    "description": "Ein Tor zählt nur durch einen Abschluss von der linken Außenposition.",
+    "points": 7
+  },
+  {
+    "id": "H006",
+    "sport": "handball",
+    "title": "Außen rechts",
+    "description": "Ein Tor zählt nur durch einen Abschluss von der rechten Außenposition.",
+    "points": 7
+  },
+  {
+    "id": "H007",
+    "sport": "handball",
+    "title": "Rückraum links",
+    "description": "Ein Tor zählt nur aus der linken Rückraumzone.",
+    "points": 6
+  },
+  {
+    "id": "H008",
+    "sport": "handball",
+    "title": "Rückraum rechts",
+    "description": "Ein Tor zählt nur aus der rechten Rückraumzone.",
+    "points": 6
+  },
+  {
+    "id": "H009",
+    "sport": "handball",
+    "title": "Kreisabschluss",
+    "description": "Ein Tor zählt nur nach einer regelkonformen Anspielaktion an den Kreis.",
+    "points": 7
+  },
+  {
+    "id": "H010",
+    "sport": "handball",
+    "title": "Drei Stationen",
+    "description": "Vor einem gültigen Tor muss über drei unterschiedliche Spieler gepasst werden.",
+    "points": 5
+  },
+  {
+    "id": "H011",
+    "sport": "handball",
+    "title": "Fünf Pässe",
+    "description": "Vor einem gültigen Tor müssen mindestens fünf erfolgreiche Pässe erfolgen.",
+    "points": 6
+  },
+  {
+    "id": "H012",
+    "sport": "handball",
+    "title": "Schnelle Mitte",
+    "description": "Erspielt nach einem Gegentor mit schneller Mitte innerhalb von zehn Sekunden eine Torchance.",
+    "points": 7
+  },
+  {
+    "id": "H013",
+    "sport": "handball",
+    "title": "Tempogegenstoß",
+    "description": "Erzielt ein Tor nach einem regelkonformen Tempogegenstoß.",
+    "points": 7
+  },
+  {
+    "id": "H014",
+    "sport": "handball",
+    "title": "Doppelpass",
+    "description": "Vor einem gültigen Tor muss ein Doppelpass gelingen.",
+    "points": 6
+  },
+  {
+    "id": "H015",
+    "sport": "handball",
+    "title": "Kreuzen",
+    "description": "Vor einem gültigen Tor muss eine Kreuzbewegung mit Ballübergabe stattfinden.",
+    "points": 7
+  },
+  {
+    "id": "H016",
+    "sport": "handball",
+    "title": "Parallelstoß",
+    "description": "Vor einem gültigen Tor muss ein Angriff durch eine parallele Laufbewegung eröffnet werden.",
+    "points": 7
+  },
+  {
+    "id": "H017",
+    "sport": "handball",
+    "title": "Verlagern",
+    "description": "Vor einem gültigen Tor muss von der linken auf die rechte Seite verlagert werden.",
+    "points": 6
+  },
+  {
+    "id": "H018",
+    "sport": "handball",
+    "title": "Verlagern zurück",
+    "description": "Vor einem gültigen Tor muss von der rechten auf die linke Seite verlagert werden.",
+    "points": 6
+  },
+  {
+    "id": "H019",
+    "sport": "handball",
+    "title": "Täuschung",
+    "description": "Vor einem gültigen Tor muss eine regelkonforme Körpertäuschung gelingen.",
+    "points": 6
+  },
+  {
+    "id": "H020",
+    "sport": "handball",
+    "title": "Pass an den Kreis",
+    "description": "Erspielt eine klare Torchance durch einen Pass zum Kreisläufer.",
+    "points": 6
+  },
+  {
+    "id": "H021",
+    "sport": "handball",
+    "title": "Wurf aus dem Rückraum",
+    "description": "Tore zählen nur aus einer vor dem Spiel markierten Rückraumzone.",
+    "points": 7
+  },
+  {
+    "id": "H022",
+    "sport": "handball",
+    "title": "Alle im Angriff",
+    "description": "Vor einem gültigen Tor müssen mindestens vier Angreifer einen Pass erhalten.",
+    "points": 8
+  },
+  {
+    "id": "H023",
+    "sport": "handball",
+    "title": "Ballgewinn",
+    "description": "Nach einer fairen Balleroberung muss binnen zwölf Sekunden ein Abschluss folgen.",
+    "points": 6
+  },
+  {
+    "id": "H024",
+    "sport": "handball",
+    "title": "Zwei schnelle Pässe",
+    "description": "Vor einem gültigen Tor müssen zwei Pässe ohne Prellen direkt hintereinander gelingen.",
+    "points": 5
+  },
+  {
+    "id": "H025",
+    "sport": "handball",
+    "title": "Abwehr rückt raus",
+    "description": "Erzwingt einen fairen Ballgewinn durch offensives, regelkonformes Heraustreten.",
+    "points": 6
+  },
+  {
+    "id": "H026",
+    "sport": "handball",
+    "title": "Einmal prellen",
+    "description": "Pro Ballbesitz darf jeder Spieler höchstens einmal mit dem Prellen beginnen.",
+    "points": 7
+  },
+  {
+    "id": "H027",
+    "sport": "handball",
+    "title": "Ohne Prellen",
+    "description": "Erzielt ein Tor in einem Angriff ohne jegliches Prellen.",
+    "points": 8
+  },
+  {
+    "id": "H028",
+    "sport": "handball",
+    "title": "Außenwechsel",
+    "description": "Vor einem gültigen Tor müssen beide Außenpositionen angespielt werden.",
+    "points": 8
+  },
+  {
+    "id": "H029",
+    "sport": "handball",
+    "title": "Überzahl nutzen",
+    "description": "Erspielt mit regelkonformem Passspiel eine freie Abschlusschance gegen eine vereinbarte passive Abwehr.",
+    "points": 6
+  },
+  {
+    "id": "H030",
+    "sport": "handball",
+    "title": "Positionswechsel",
+    "description": "Vor einem gültigen Tor müssen zwei Rückraumspieler regelkonform die Position tauschen.",
+    "points": 6
+  },
+  {
+    "id": "H031",
+    "sport": "handball",
+    "title": "Kreis-Sperre fair",
+    "description": "Erspielt eine Torchance nach einer regelkonformen Sperrstellung ohne Stoßen oder Halten.",
+    "points": 7
+  },
+  {
+    "id": "H032",
+    "sport": "handball",
+    "title": "Hoher Pass",
+    "description": "Vor einem gültigen Tor muss ein sicherer, hoher Pass auf einen freien Mitspieler gelingen.",
+    "points": 5
+  },
+  {
+    "id": "H033",
+    "sport": "handball",
+    "title": "Rückpass und Wurf",
+    "description": "Ein Tor zählt nur nach Pass nach außen und Rückpass in den Rückraum.",
+    "points": 7
+  },
+  {
+    "id": "H034",
+    "sport": "handball",
+    "title": "Zentrale Einleitung",
+    "description": "Ein Tor zählt nur nach einer Angriffseinleitung über die Mittelposition.",
+    "points": 5
+  },
+  {
+    "id": "H035",
+    "sport": "handball",
+    "title": "Zwei Außenkontakte",
+    "description": "Vor einem gültigen Tor müssen zwei Außenspieler Ballkontakte haben.",
+    "points": 7
+  },
+  {
+    "id": "H036",
+    "sport": "handball",
+    "title": "Wurf linke Hand · Profi",
+    "description": "Tore zählen nur durch Würfe mit der linken Hand. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 9
+  },
+  {
+    "id": "H037",
+    "sport": "handball",
+    "title": "Wurf rechte Hand · Profi",
+    "description": "Tore zählen nur durch Würfe mit der rechten Hand. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 8
+  },
+  {
+    "id": "H038",
+    "sport": "handball",
+    "title": "Sprungwurf · Profi",
+    "description": "Ein Tor zählt nur durch einen regelkonformen Sprungwurf. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 8
+  },
+  {
+    "id": "H039",
+    "sport": "handball",
+    "title": "Standwurf · Profi",
+    "description": "Ein Tor zählt nur durch einen regelkonformen Standwurf. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 9
+  },
+  {
+    "id": "H040",
+    "sport": "handball",
+    "title": "Außen links · Profi",
+    "description": "Ein Tor zählt nur durch einen Abschluss von der linken Außenposition. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 10
+  },
+  {
+    "id": "H041",
+    "sport": "handball",
+    "title": "Außen rechts · Profi",
+    "description": "Ein Tor zählt nur durch einen Abschluss von der rechten Außenposition. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 10
+  },
+  {
+    "id": "H042",
+    "sport": "handball",
+    "title": "Rückraum links · Profi",
+    "description": "Ein Tor zählt nur aus der linken Rückraumzone. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 9
+  },
+  {
+    "id": "H043",
+    "sport": "handball",
+    "title": "Rückraum rechts · Profi",
+    "description": "Ein Tor zählt nur aus der rechten Rückraumzone. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 9
+  },
+  {
+    "id": "H044",
+    "sport": "handball",
+    "title": "Kreisabschluss · Profi",
+    "description": "Ein Tor zählt nur nach einer regelkonformen Anspielaktion an den Kreis. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 10
+  },
+  {
+    "id": "H045",
+    "sport": "handball",
+    "title": "Drei Stationen · Profi",
+    "description": "Vor einem gültigen Tor muss über drei unterschiedliche Spieler gepasst werden. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 8
+  },
+  {
+    "id": "H046",
+    "sport": "handball",
+    "title": "Fünf Pässe · Profi",
+    "description": "Vor einem gültigen Tor müssen mindestens fünf erfolgreiche Pässe erfolgen. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 9
+  },
+  {
+    "id": "H047",
+    "sport": "handball",
+    "title": "Schnelle Mitte · Profi",
+    "description": "Erspielt nach einem Gegentor mit schneller Mitte innerhalb von zehn Sekunden eine Torchance. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 10
+  },
+  {
+    "id": "H048",
+    "sport": "handball",
+    "title": "Tempogegenstoß · Profi",
+    "description": "Erzielt ein Tor nach einem regelkonformen Tempogegenstoß. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 10
+  },
+  {
+    "id": "H049",
+    "sport": "handball",
+    "title": "Doppelpass · Profi",
+    "description": "Vor einem gültigen Tor muss ein Doppelpass gelingen. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 9
+  },
+  {
+    "id": "H050",
+    "sport": "handball",
+    "title": "Kreuzen · Profi",
+    "description": "Vor einem gültigen Tor muss eine Kreuzbewegung mit Ballübergabe stattfinden. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 10
+  },
+  {
+    "id": "H051",
+    "sport": "handball",
+    "title": "Parallelstoß · Profi",
+    "description": "Vor einem gültigen Tor muss ein Angriff durch eine parallele Laufbewegung eröffnet werden. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 10
+  },
+  {
+    "id": "H052",
+    "sport": "handball",
+    "title": "Verlagern · Profi",
+    "description": "Vor einem gültigen Tor muss von der linken auf die rechte Seite verlagert werden. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 9
+  },
+  {
+    "id": "H053",
+    "sport": "handball",
+    "title": "Verlagern zurück · Profi",
+    "description": "Vor einem gültigen Tor muss von der rechten auf die linke Seite verlagert werden. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 9
+  },
+  {
+    "id": "H054",
+    "sport": "handball",
+    "title": "Täuschung · Profi",
+    "description": "Vor einem gültigen Tor muss eine regelkonforme Körpertäuschung gelingen. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 9
+  },
+  {
+    "id": "H055",
+    "sport": "handball",
+    "title": "Pass an den Kreis · Profi",
+    "description": "Erspielt eine klare Torchance durch einen Pass zum Kreisläufer. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 9
+  },
+  {
+    "id": "H056",
+    "sport": "handball",
+    "title": "Wurf aus dem Rückraum · Profi",
+    "description": "Tore zählen nur aus einer vor dem Spiel markierten Rückraumzone. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 10
+  },
+  {
+    "id": "H057",
+    "sport": "handball",
+    "title": "Alle im Angriff · Profi",
+    "description": "Vor einem gültigen Tor müssen mindestens vier Angreifer einen Pass erhalten. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 11
+  },
+  {
+    "id": "H058",
+    "sport": "handball",
+    "title": "Ballgewinn · Profi",
+    "description": "Nach einer fairen Balleroberung muss binnen zwölf Sekunden ein Abschluss folgen. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 9
+  },
+  {
+    "id": "H059",
+    "sport": "handball",
+    "title": "Zwei schnelle Pässe · Profi",
+    "description": "Vor einem gültigen Tor müssen zwei Pässe ohne Prellen direkt hintereinander gelingen. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 8
+  },
+  {
+    "id": "H060",
+    "sport": "handball",
+    "title": "Abwehr rückt raus · Profi",
+    "description": "Erzwingt einen fairen Ballgewinn durch offensives, regelkonformes Heraustreten. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 9
+  },
+  {
+    "id": "H061",
+    "sport": "handball",
+    "title": "Einmal prellen · Profi",
+    "description": "Pro Ballbesitz darf jeder Spieler höchstens einmal mit dem Prellen beginnen. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 10
+  },
+  {
+    "id": "H062",
+    "sport": "handball",
+    "title": "Ohne Prellen · Profi",
+    "description": "Erzielt ein Tor in einem Angriff ohne jegliches Prellen. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 11
+  },
+  {
+    "id": "H063",
+    "sport": "handball",
+    "title": "Außenwechsel · Profi",
+    "description": "Vor einem gültigen Tor müssen beide Außenpositionen angespielt werden. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 11
+  },
+  {
+    "id": "H064",
+    "sport": "handball",
+    "title": "Überzahl nutzen · Profi",
+    "description": "Erspielt mit regelkonformem Passspiel eine freie Abschlusschance gegen eine vereinbarte passive Abwehr. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 9
+  },
+  {
+    "id": "H065",
+    "sport": "handball",
+    "title": "Positionswechsel · Profi",
+    "description": "Vor einem gültigen Tor müssen zwei Rückraumspieler regelkonform die Position tauschen. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 9
+  },
+  {
+    "id": "A001",
+    "sport": "all",
+    "title": "Teamjoker",
+    "description": "Erzielt innerhalb der ersten zwei Spielminuten einen Punkt oder ein Tor.",
+    "points": 5
+  },
+  {
+    "id": "A002",
+    "sport": "all",
+    "title": "Spätstarter",
+    "description": "Erzielt in den letzten zwei Spielminuten einen Punkt oder ein Tor.",
+    "points": 6
+  },
+  {
+    "id": "A003",
+    "sport": "all",
+    "title": "Fairplay-Bonus",
+    "description": "Spielt die gesamte Partie ohne absichtliches Foul oder unsportliche Aktion.",
+    "points": 5
+  },
+  {
+    "id": "A004",
+    "sport": "all",
+    "title": "Klare Ansagen",
+    "description": "Vor mindestens fünf eigenen Aktionen erfolgen hörbare, positive Team-Kommandos.",
+    "points": 4
+  },
+  {
+    "id": "A005",
+    "sport": "all",
+    "title": "Starker Start",
+    "description": "Behaltet in der ersten Minute nachweisbar mindestens einmal den Ballbesitz.",
+    "points": 3
+  },
+  {
+    "id": "A006",
+    "sport": "all",
+    "title": "Ballgewinn-Challenge",
+    "description": "Gewinnt innerhalb von zwei Minuten dreimal regelkonform den Ball.",
+    "points": 6
+  },
+  {
+    "id": "A007",
+    "sport": "all",
+    "title": "Pass-Challenge",
+    "description": "Spielt fünf saubere Pässe in Folge untereinander.",
+    "points": 5
+  },
+  {
+    "id": "A008",
+    "sport": "all",
+    "title": "Turbo-Umschalten",
+    "description": "Nach einem Ballgewinn folgt innerhalb von fünf Sekunden ein eigener Abschlussversuch.",
+    "points": 7
+  },
+  {
+    "id": "A009",
+    "sport": "all",
+    "title": "Zusammenspiel",
+    "description": "Drei verschiedene Teammitglieder sind direkt an einem erfolgreichen Angriff beteiligt.",
+    "points": 5
+  },
+  {
+    "id": "A010",
+    "sport": "all",
+    "title": "Teamrotation",
+    "description": "Wechselt im Spiel mindestens zweimal freiwillig und regelkonform die Positionen.",
+    "points": 4
+  },
+  {
+    "id": "A011",
+    "sport": "all",
+    "title": "Captain führt",
+    "description": "Der Mannschaftskapitän gibt drei hörbare, konstruktive Coaching-Hinweise.",
+    "points": 3
+  },
+  {
+    "id": "A012",
+    "sport": "all",
+    "title": "Comeback",
+    "description": "Gleicht einen zwischenzeitlichen Rückstand im Spiel aus.",
+    "points": 8
+  },
+  {
+    "id": "A013",
+    "sport": "all",
+    "title": "Zu-null-Phase",
+    "description": "Lasst drei aufeinanderfolgende Minuten keinen Gegentreffer zu.",
+    "points": 7
+  },
+  {
+    "id": "A014",
+    "sport": "all",
+    "title": "Mut zum Abschluss",
+    "description": "Erarbeitet fünf regelkonforme Abschlussversuche im Spiel.",
+    "points": 5
+  },
+  {
+    "id": "A015",
+    "sport": "all",
+    "title": "Kombinationskette",
+    "description": "Erreicht mindestens einmal sieben eigene Pässe ohne Ballverlust.",
+    "points": 7
+  },
+  {
+    "id": "A016",
+    "sport": "all",
+    "title": "Angriff über links",
+    "description": "Ein eigener Treffer zählt für die Challenge nur nach einem Angriff über links.",
+    "points": 6
+  },
+  {
+    "id": "A017",
+    "sport": "all",
+    "title": "Angriff über rechts",
+    "description": "Ein eigener Treffer zählt für die Challenge nur nach einem Angriff über rechts.",
+    "points": 6
+  },
+  {
+    "id": "A018",
+    "sport": "all",
+    "title": "Erster Ballgewinn",
+    "description": "Erobert innerhalb der ersten 30 Sekunden einmal fair den Ball.",
+    "points": 4
+  },
+  {
+    "id": "A019",
+    "sport": "all",
+    "title": "Defensivteam",
+    "description": "Klärt mindestens vier gefährliche Situationen fair und regelkonform.",
+    "points": 5
+  },
+  {
+    "id": "A020",
+    "sport": "all",
+    "title": "Ruhige Kugel",
+    "description": "Vermeidet für zwei zusammenhängende Minuten unnötige Ballverluste.",
+    "points": 6
+  },
+  {
+    "id": "A021",
+    "sport": "all",
+    "title": "Torvorlage zählt",
+    "description": "Ein Treffer zählt nur, wenn ihn ein anderer Mitspieler unmittelbar vorbereitet.",
+    "points": 5
+  },
+  {
+    "id": "A022",
+    "sport": "all",
+    "title": "Mutige Neulinge",
+    "description": "Mindestens zwei unterschiedliche Spieler versuchen einen Abschluss.",
+    "points": 4
+  },
+  {
+    "id": "A023",
+    "sport": "all",
+    "title": "Jeder hilft",
+    "description": "Mindestens vier verschiedene Spieler beteiligen sich an einer erfolgreichen Verteidigungsphase.",
+    "points": 5
+  },
+  {
+    "id": "A024",
+    "sport": "all",
+    "title": "Vierer-Kombination",
+    "description": "Vier verschiedene Teammitglieder berühren bei derselben Angriffsaktion den Ball.",
+    "points": 7
+  },
+  {
+    "id": "A025",
+    "sport": "all",
+    "title": "Schneller Neustart",
+    "description": "Führt nach einer zulässigen Spielunterbrechung dreimal zügig und regelkonform fort.",
+    "points": 4
+  },
+  {
+    "id": "A026",
+    "sport": "all",
+    "title": "Null Diskussion",
+    "description": "Akzeptiert während des gesamten Spiels alle Schiedsrichterentscheidungen respektvoll.",
+    "points": 5
+  },
+  {
+    "id": "A027",
+    "sport": "all",
+    "title": "Positive Bank",
+    "description": "Die Auswechselspieler unterstützen ihr Team mindestens fünfmal fair und positiv.",
+    "points": 3
+  },
+  {
+    "id": "A028",
+    "sport": "all",
+    "title": "Zeitfenster",
+    "description": "Erzielt im mittleren Drittel der Spielzeit einen Treffer.",
+    "points": 5
+  },
+  {
+    "id": "A029",
+    "sport": "all",
+    "title": "Doppelchance",
+    "description": "Erarbeitet innerhalb von 60 Sekunden zwei regelkonforme Abschlusschancen.",
+    "points": 6
+  },
+  {
+    "id": "A030",
+    "sport": "all",
+    "title": "Ballbesitzphase",
+    "description": "Haltet den Ball mindestens 20 Sekunden ohne Unterbrechung in den eigenen Reihen.",
+    "points": 6
+  },
+  {
+    "id": "A031",
+    "sport": "all",
+    "title": "Mehrere Torschützen",
+    "description": "Mindestens zwei unterschiedliche Spieler erzielen einen Treffer.",
+    "points": 8
+  },
+  {
+    "id": "A032",
+    "sport": "all",
+    "title": "Ohne Hektik",
+    "description": "Spielt vor einem Treffer mindestens vier kontrollierte Pässe.",
+    "points": 6
+  },
+  {
+    "id": "A033",
+    "sport": "all",
+    "title": "Beidseitig",
+    "description": "Nutzt im Verlauf einer Angriffsaktion beide Spielfeldseiten.",
+    "points": 7
+  },
+  {
+    "id": "A034",
+    "sport": "all",
+    "title": "Sicherer Wechsel",
+    "description": "Alle Wechsel erfolgen korrekt; kein Spieler betritt unerlaubt das Spielfeld.",
+    "points": 4
+  },
+  {
+    "id": "A035",
+    "sport": "all",
+    "title": "Teamkreis",
+    "description": "Vor Spielbeginn nennt jedes Teammitglied ein positives Teamziel.",
+    "points": 3
+  },
+  {
+    "id": "A036",
+    "sport": "all",
+    "title": "Teamjoker · Profi",
+    "description": "Erzielt innerhalb der ersten zwei Spielminuten einen Punkt oder ein Tor. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 8
+  },
+  {
+    "id": "A037",
+    "sport": "all",
+    "title": "Spätstarter · Profi",
+    "description": "Erzielt in den letzten zwei Spielminuten einen Punkt oder ein Tor. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 9
+  },
+  {
+    "id": "A038",
+    "sport": "all",
+    "title": "Fairplay-Bonus · Profi",
+    "description": "Spielt die gesamte Partie ohne absichtliches Foul oder unsportliche Aktion. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 8
+  },
+  {
+    "id": "A039",
+    "sport": "all",
+    "title": "Klare Ansagen · Profi",
+    "description": "Vor mindestens fünf eigenen Aktionen erfolgen hörbare, positive Team-Kommandos. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 7
+  },
+  {
+    "id": "A040",
+    "sport": "all",
+    "title": "Starker Start · Profi",
+    "description": "Behaltet in der ersten Minute nachweisbar mindestens einmal den Ballbesitz. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 6
+  },
+  {
+    "id": "A041",
+    "sport": "all",
+    "title": "Ballgewinn-Challenge · Profi",
+    "description": "Gewinnt innerhalb von zwei Minuten dreimal regelkonform den Ball. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 9
+  },
+  {
+    "id": "A042",
+    "sport": "all",
+    "title": "Pass-Challenge · Profi",
+    "description": "Spielt fünf saubere Pässe in Folge untereinander. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 8
+  },
+  {
+    "id": "A043",
+    "sport": "all",
+    "title": "Turbo-Umschalten · Profi",
+    "description": "Nach einem Ballgewinn folgt innerhalb von fünf Sekunden ein eigener Abschlussversuch. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 10
+  },
+  {
+    "id": "A044",
+    "sport": "all",
+    "title": "Zusammenspiel · Profi",
+    "description": "Drei verschiedene Teammitglieder sind direkt an einem erfolgreichen Angriff beteiligt. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 8
+  },
+  {
+    "id": "A045",
+    "sport": "all",
+    "title": "Teamrotation · Profi",
+    "description": "Wechselt im Spiel mindestens zweimal freiwillig und regelkonform die Positionen. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 7
+  },
+  {
+    "id": "A046",
+    "sport": "all",
+    "title": "Captain führt · Profi",
+    "description": "Der Mannschaftskapitän gibt drei hörbare, konstruktive Coaching-Hinweise. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 6
+  },
+  {
+    "id": "A047",
+    "sport": "all",
+    "title": "Comeback · Profi",
+    "description": "Gleicht einen zwischenzeitlichen Rückstand im Spiel aus. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 11
+  },
+  {
+    "id": "A048",
+    "sport": "all",
+    "title": "Zu-null-Phase · Profi",
+    "description": "Lasst drei aufeinanderfolgende Minuten keinen Gegentreffer zu. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 10
+  },
+  {
+    "id": "A049",
+    "sport": "all",
+    "title": "Mut zum Abschluss · Profi",
+    "description": "Erarbeitet fünf regelkonforme Abschlussversuche im Spiel. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 8
+  },
+  {
+    "id": "A050",
+    "sport": "all",
+    "title": "Kombinationskette · Profi",
+    "description": "Erreicht mindestens einmal sieben eigene Pässe ohne Ballverlust. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 10
+  },
+  {
+    "id": "A051",
+    "sport": "all",
+    "title": "Angriff über links · Profi",
+    "description": "Ein eigener Treffer zählt für die Challenge nur nach einem Angriff über links. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 9
+  },
+  {
+    "id": "A052",
+    "sport": "all",
+    "title": "Angriff über rechts · Profi",
+    "description": "Ein eigener Treffer zählt für die Challenge nur nach einem Angriff über rechts. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 9
+  },
+  {
+    "id": "A053",
+    "sport": "all",
+    "title": "Erster Ballgewinn · Profi",
+    "description": "Erobert innerhalb der ersten 30 Sekunden einmal fair den Ball. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 7
+  },
+  {
+    "id": "A054",
+    "sport": "all",
+    "title": "Defensivteam · Profi",
+    "description": "Klärt mindestens vier gefährliche Situationen fair und regelkonform. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 8
+  },
+  {
+    "id": "A055",
+    "sport": "all",
+    "title": "Ruhige Kugel · Profi",
+    "description": "Vermeidet für zwei zusammenhängende Minuten unnötige Ballverluste. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 9
+  },
+  {
+    "id": "A056",
+    "sport": "all",
+    "title": "Torvorlage zählt · Profi",
+    "description": "Ein Treffer zählt nur, wenn ihn ein anderer Mitspieler unmittelbar vorbereitet. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 8
+  },
+  {
+    "id": "A057",
+    "sport": "all",
+    "title": "Mutige Neulinge · Profi",
+    "description": "Mindestens zwei unterschiedliche Spieler versuchen einen Abschluss. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 7
+  },
+  {
+    "id": "A058",
+    "sport": "all",
+    "title": "Jeder hilft · Profi",
+    "description": "Mindestens vier verschiedene Spieler beteiligen sich an einer erfolgreichen Verteidigungsphase. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 8
+  },
+  {
+    "id": "A059",
+    "sport": "all",
+    "title": "Vierer-Kombination · Profi",
+    "description": "Vier verschiedene Teammitglieder berühren bei derselben Angriffsaktion den Ball. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 10
+  },
+  {
+    "id": "A060",
+    "sport": "all",
+    "title": "Schneller Neustart · Profi",
+    "description": "Führt nach einer zulässigen Spielunterbrechung dreimal zügig und regelkonform fort. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 7
+  },
+  {
+    "id": "A061",
+    "sport": "all",
+    "title": "Null Diskussion · Profi",
+    "description": "Akzeptiert während des gesamten Spiels alle Schiedsrichterentscheidungen respektvoll. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 8
+  },
+  {
+    "id": "A062",
+    "sport": "all",
+    "title": "Positive Bank · Profi",
+    "description": "Die Auswechselspieler unterstützen ihr Team mindestens fünfmal fair und positiv. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 6
+  },
+  {
+    "id": "A063",
+    "sport": "all",
+    "title": "Zeitfenster · Profi",
+    "description": "Erzielt im mittleren Drittel der Spielzeit einen Treffer. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 8
+  },
+  {
+    "id": "A064",
+    "sport": "all",
+    "title": "Doppelchance · Profi",
+    "description": "Erarbeitet innerhalb von 60 Sekunden zwei regelkonforme Abschlusschancen. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 9
+  },
+  {
+    "id": "A065",
+    "sport": "all",
+    "title": "Ballbesitzphase · Profi",
+    "description": "Haltet den Ball mindestens 20 Sekunden ohne Unterbrechung in den eigenen Reihen. Schafft diese Aufgabe im selben Spiel zweimal (bei Spielereignissen) bzw. wiederholt die Aktion in zwei getrennten Phasen.",
+    "points": 9
+  }
+]
