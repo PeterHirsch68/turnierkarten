@@ -1,3 +1,7 @@
+# Turnierkarten – Version 2.0 (8 Teams)
+
+**Neu:** Acht gleichzeitig verwaltbare Mannschaften, acht frei änderbare Teamnamen und eigene Ziehbuttons, Punktestände und offene Aufgaben pro Mannschaft. Gespeicherte Daten der Zwei-Team-Version werden lokal übernommen.
+
 # Turnierkarten – Sport Akademie Deutschland
 
 Eine kostenlose, installierbare **Progressive Web App (PWA)** für Fußball-, Handball- und Multisportturniere. Keine Programmierung, kein Server und kein Apple-Developer-Konto nötig.
